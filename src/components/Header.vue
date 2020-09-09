@@ -6,7 +6,7 @@
       <div class="container">
         <div class="server pull-left">
           <span class="glyphicon glyphicon-earphone"></span>888-888-888
-          <span class="glyphicon glyphicon-envelope"></span>liyunkun_11@163.com
+          <span class="glyphicon glyphicon-envelope"></span>15808930230@163.com
           <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
         </div>
         <div class="shejiao pull-right">
@@ -93,15 +93,15 @@ export default {
           children: []
         },
         {
-          name: "软件产品",
+          name: "旗下企业",
           path: "/software",
           children: [
             {
-              name: "乱七八糟",
+              name: "亳州回收资源有限责任公司",
               path: "/software/smartTown"
             },
             {
-              name: "大数据管理系统",
+              name: "海南自贸区电子商务责任有限公司",
               path: "/software/bigData"
             }
           ]

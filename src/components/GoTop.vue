@@ -1,6 +1,8 @@
 <template>
   <div id="GoTop" @click="GoTop()">
-    <span class="glyphicon glyphicon-chevron-up"></span>
+    <span>
+      <img src="@/assets/img/goTop.png" alt="">
+    </span>
   </div>
 </template>
 <script>
@@ -30,16 +32,16 @@ export default {
   width: 50px;
   height: 50px;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 5%;
+  bottom: 10%;
   z-index: 99999999;
   cursor: pointer;
+  opacity: 0.2;
 }
 #GoTop > span {
   display: block;
   width: 100%;
+  
   height: 100%;
-  color: rgb(8, 162, 233);
-  font-size: 30px;
 }
 </style>
