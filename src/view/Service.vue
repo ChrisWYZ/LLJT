@@ -1,16 +1,16 @@
 <template>
     <div id="Service">
         <div class="container text-center">
-            <h3>我们的服务</h3>
+            <h1>一站式服务</h1>
             <p style="color:#b2b2b2">The Best Service You Never See</p>
         </div>
         <div class="container">
             <div class="Service-container row">
-                <div class="Service-item col-xs-12 col-sm-6 col-md-3 wow slideInUp" 
+                <div class="Service-item col-xs-12 col-sm-4 col-md-2 wow slideInUp" 
                 v-for="(item,index) in serviceList" :key="index" @click="ServiceClick(item.id)">
                     <div class="Service-item-wrapper">
                         <div class="Service-item-top">
-                            <h4>{{item.title}}</h4>
+                            <h5>{{item.title}}</h5>
                             <i></i>
                             <p>{{item.eng_title}}</p>
                         </div>
@@ -33,23 +33,33 @@ export default {
             serviceList: [
                 {
                     id: 'section-1',
-                    title: '软件定制开发',
-                    eng_title: 'Customize App',
+                    title: '工商注册',
+                    eng_title: 'business circles register',
                     img: require('@/assets/img/service1.jpg')
                 },{
                     id: 'section-2',
-                    title: 'IT外包服务',
-                    eng_title: 'Outsourcing',
+                    title: '公司办公',
+                    eng_title: 'Company office',
                     img: require('@/assets/img/service2.jpg')
                 },{
                     id: 'section-3',
-                    title: '网上商城建设',
-                    eng_title: 'eCommerce Site',
+                    title: '记账报税',
+                    eng_title: 'Book entry and tax return',
                     img: require('@/assets/img/service3.jpg')
                 },{
                     id: 'section-4',
-                    title: 'iOS应用定制开发',
-                    eng_title: 'iOS App Dev',
+                    title: '在线交易',
+                    eng_title: 'Online trading',
+                    img: require('@/assets/img/service4.jpg')
+                },{
+                    id: 'section-5',
+                    title: '进出口资质',
+                    eng_title: 'Import and export qualification',
+                    img: require('@/assets/img/service4.jpg')
+                },{
+                    id: 'section-6',
+                    title: '清关报关',
+                    eng_title: 'Customs clearance',
                     img: require('@/assets/img/service4.jpg')
                 }
             ]
@@ -129,7 +139,7 @@ export default {
 }
 .Service-item-wrapper:hover .Service-item-top > p{
     opacity: 1;
-    transform: translateY(-10px);
+    transform: translateY(-28px);
 }
 .Service-item-wrapper:hover .Service-item-img > img{
     transform: scale(1.1,1.1);
