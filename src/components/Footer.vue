@@ -34,9 +34,8 @@ export default {
   text-align: center;
 }
 .logo {
-  width: 95px;
-  height: 45px;
-  margin: 50px 48% 20px;
+  
+  margin: 30px 46% 20px;
 }
 .title {
   font-size: 25px;
