@@ -19,7 +19,7 @@
     <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
       <div class="header-nav-logo">
-        <img src="@/assets/img/logo_black.png">
+        <img src="@/assets/img/logo_white.png">
       </div>
       <!-- 导航内容 -->
       <ul class="header-nav-wrapper">
@@ -171,16 +171,18 @@ export default {
 #header .header-nav {
   height: 110px;
 }
+
 /* 导航栏logo */
-#header .header-nav .header-nav-logo {
+#header .header-nav .header-nav-logo{
   width: 100px;
   height: 100%;
   float: left;
   position: relative;
 }
+
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 95px;
+  width: 45px;
   height: 45px;
   position: absolute;
   top: 0;
@@ -189,6 +191,16 @@ export default {
   bottom: 0;
   margin: auto;
 }
+/* .header-nav-logo img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+} */
 /* 导航栏 导航容器 */
 #header .header-nav-fixed .header-nav-wrapper {
   line-height: 50px;

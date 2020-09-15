@@ -5,34 +5,57 @@
       <div class="container-fuild ContactUs-container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">
+            亳州龙利再生资源回收有限公司
             <form class="form-horizontal" role="form">
               <div class="form-group">
-                <label for="name" class="col-sm-2 control-label">姓名</label>
+                <label for="name" class="col-sm-2 control-label">地址</label>
                 <div class="col-sm-10 col-xs-12">
-                  <input type="text" class="form-control" id="name" placeholder="请输入名字">
+                  安徽省亳州市谯城区张良路东侧白芍路北侧（亳州龙利再生资源回收有限公司）
                 </div>
               </div>
               <div class="form-group">
                 <label for="email" class="col-sm-2 control-label">邮箱</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="email" placeholder="请输入邮箱">
+                  BZlongli@163.com
                 </div>
               </div>
               <div class="form-group">
                 <label for="tel" class="col-sm-2 control-label">电话</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="tel" placeholder="请输入电话">
+                  0558-5573888
                 </div>
               </div>
               <div class="form-group">
-                <label for="content" class="col-sm-2 control-label">内容</label>
+                <label for="content" class="col-sm-2 control-label">QQ</label>
                 <div class="col-sm-10">
-                  <textarea class="form-control" id="content" rows="8" placeholder="请输入内容"></textarea>
+                  1404366753
+                </div>
+              </div>
+            </form>
+            海南自贸区龙利电子商务有限公司
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">地址</label>
+                <div class="col-sm-10 col-xs-12">
+                  海南省海口市龙华区南海大道海垦路九九华府119号（海南自贸区龙利电子商务有限公司）
                 </div>
               </div>
               <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default btn-block">提交</button>
+                <label for="email" class="col-sm-2 control-label">邮箱</label>
+                <div class="col-sm-10">
+                  BZlongli@163.com
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="tel" class="col-sm-2 control-label">电话</label>
+                <div class="col-sm-10">
+                  0558-5573888
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="content" class="col-sm-2 control-label">QQ</label>
+                <div class="col-sm-10">
+                  1404366753
                 </div>
               </div>
             </form>
@@ -55,7 +78,7 @@ export default {
   },
   mounted() {
     var map = new BMap.Map("map"); // 创建地图实例
-    var point = new BMap.Point(116.301841,40.156506); // 创建点坐标
+    var point = new BMap.Point(110.311713,20.005252); // 创建点坐标
     map.centerAndZoom(point, 18); // 初始化地图，设置中心点坐标和地图级别
     map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
     var marker = new BMap.Marker(point); // 创建标注
@@ -63,10 +86,10 @@ export default {
     var opts = {
       width: 50, // 信息窗口宽度
       height: 10, // 信息窗口高度
-      title: "黄元公寓" // 信息窗口标题
+      title: "龙利集团有限责任公司" // 信息窗口标题
     };
     var infoWindow = new BMap.InfoWindow(
-      "我的家",
+      "海南自贸区电子商务有限公司",
       opts
     ); // 创建信息窗口对象
     map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口
@@ -104,6 +127,12 @@ export default {
   .ContactUs-container {
     padding: 20px 0;
   }
+}
+.form-group{
+  margin: 2%;
+}
+.form-group>div{
+  padding: 7px 15px 0;
 }
 </style>
 
