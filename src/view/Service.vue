@@ -55,12 +55,12 @@ export default {
                     id: 'section-5',
                     title: '进出口资质',
                     eng_title: 'Import and export qualification',
-                    img: require('@/assets/img/service4.jpg')
+                    img: require('@/assets/img/service5.jpg')
                 },{
                     id: 'section-6',
                     title: '清关报关',
                     eng_title: 'Customs clearance',
-                    img: require('@/assets/img/service4.jpg')
+                    img: require('@/assets/img/service6.jpg')
                 }
             ]
         }
