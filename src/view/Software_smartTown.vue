@@ -22,6 +22,14 @@
         </div>
 
     </div>
+
+    <div>
+        &emsp;&emsp;公司一直秉承着“诚信赢天下”作为公司的发展宗旨，正在一步一步做大做强。目前，公司拥有的资产有：在海南有500平方米的商铺和一栋7层的宿舍楼；在亳州，厂房占地30亩。以上资产，公司没有使用任何的银行贷款。
+
+历经风雨数载，宋军先生积累了丰厚的经验，公司在宋总的带领下，秉持着诚信赢天下的宗旨，在今后的发展中将会致力于打造规模规范标准专业信息化再生资源回收供给平台，相信亳州龙利再生资源回收有限公司的发展会越来越辉煌
+    </div>
+
+    
     </div>
 </template>
 <script>
@@ -56,13 +64,12 @@ export default {
     }
     .laydiv{
         width: 100%;
-        height: 100%;
     }
 
     #xuanchuantu{
-        margin:25px 50px;
-        width: 140px;
-        height: 100px;
+        margin:4%;
+        width: 25.3%;
+        height: 150px;
         float: left;
         position: relative;
         border: 0.5px solid #efefef;

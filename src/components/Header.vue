@@ -182,8 +182,8 @@ export default {
 
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 45px;
-  height: 45px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   top: 0;
   left: 0;
@@ -235,7 +235,7 @@ export default {
   height: 2px;
   opacity: 0;
   transition: all 0.6s ease;
-  background-color: #1e73be;
+  background-color: rgb(174,221,129);
 }
 /* 导航栏 每个导航下面的 a 链接的右侧小三角 */
 #header .header-nav .header-nav-wrapper > li > a > span {
