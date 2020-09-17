@@ -146,7 +146,7 @@ export default {
     return {
       swiperList: [
         {
-          img: require("@/assets/img/banner1.png"),
+          img: require("@/assets/img/banner1.jpg"),
           path: "",
           title: '1',
           content: '',
@@ -158,13 +158,13 @@ export default {
           content: '',
         },
         {
-          img: require("@/assets/img/banner1.png"),
+          img: require("@/assets/img/banner3.jpg"),
           path: "",
           title: '3',
           content: '',
         },
         {
-          img: require("@/assets/img/banner2.jpg"),
+          img: require("@/assets/img/banner4.jpg"),
           path: "",
           title: '4',
           content: '',

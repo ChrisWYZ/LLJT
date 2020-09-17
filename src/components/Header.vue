@@ -19,7 +19,7 @@
     <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
       <div class="header-nav-logo">
-        <img src="@/assets/img/logo_white.png">
+        <img src="@/assets/img/LLLOGO.png">
       </div>
       <!-- 导航内容 -->
       <ul class="header-nav-wrapper">
@@ -182,7 +182,7 @@ export default {
 
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 80px;
+  width: 180px;
   height: 80px;
   position: absolute;
   top: 0;
