@@ -60,7 +60,9 @@
     <!-- 客户评价 -->
     <div id="customer" class="container-fuild">
       <div class="container customer-container">
-        <p class="customer-title text-center">合作伙伴</p>
+        <div class="container-1">
+          <p class="customer-title text-center">合作伙伴</p>
+        </div>
         <div class="swiper-container customer-swiper hidden-xs">
           <div class="swiper-wrapper">
             <div
@@ -404,6 +406,15 @@ export default {
   background: url("../assets/img/contact_us_bg.jpg") 0 0 no-repeat;
   background-size: 100% 100%;
   transition: all ease 0.6s;
+}
+.container-1{
+  width: 100%;
+  height: 300px;
+  background: url("../assets/img/timg.jpg") 0 0;
+}
+.container-1>p{
+  position: relative;
+  top: 130px;
 }
 #contactUs .contactUs-container {
   padding-top: 50px;
