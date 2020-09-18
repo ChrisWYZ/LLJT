@@ -27,7 +27,10 @@ import './assets/js/bootstrap.min'
 
 /* animate.css */
 import 'animate.css'
-
+/*图片预览*/
+import VueDirectiveImagePreviewer from 'vue-directive-image-previewer'
+import 'vue-directive-image-previewer/dist/assets/style.css'
+Vue.use(VueDirectiveImagePreviewer)
  
 /* 头部组件 */
 import Header from './components/Header'
