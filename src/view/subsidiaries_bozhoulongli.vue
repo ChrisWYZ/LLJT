@@ -1,5 +1,5 @@
 <template>
-    <div id="smartTown">
+    <div id="bozhoulongli">
         <div>
             <a href="http://bozhoulongli.com/"><img src="@/assets/img/bozhoulongli.jpg" alt="亳州龙利回收资源有限公司"></a>
             &emsp;&emsp;亳州龙利再生资源回收有限公司是谯城区区政办招商引资的一家总部经济企业，2014年在亳州市工商局注册成立，公司主营业务废旧物资回收，公司是以“打造规模规范标准专业信息化再生资源回收供给平台”为公司愿景，正在一步一步做大做强。
@@ -34,7 +34,7 @@
 </template>
 <script>
 export default {
-    name: 'smartTown',
+    name: 'bozhoulongli',
     data(){
         return{
             bozhoulongliList:[

@@ -23,31 +23,31 @@ export default new Router({
             title: '首页'
           }
         }, {
-          path: '/software',
-          name: 'software',
-          component: resolve => require(['@/view/Software'], resolve),
+          path: '/subsidiaries',
+          name: 'subsidiaries',
+          component: resolve => require(['@/view/subsidiaries'], resolve),
           meta: {
             title: '软件产品'
           },
           children: [
             {
-              path: '/software',
-              redirect: '/software/smartTown'
+              path: '/subsidiaries',
+              redirect: '/subsidiaries/bozhoulongli'
             },
             {
-              path: '/software/smartTown',
-              name: 'software',
-              component: resolve => require(['@/view/Software_smartTown'], resolve),
+              path: '/subsidiaries/bozhoulongli',
+              name: 'subsidiaries',
+              component: resolve => require(['@/view/subsidiaries_bozhoulongli'], resolve),
               meta: {
-                title: '软件产品丨智能小镇管理系统'
+                title: '亳州龙利回收资源有限责任公司'
               }
             },
             {
-              path: '/software/bigData',
-              name: 'software',
-              component: resolve => require(['@/view/Software_bigData'], resolve),
+              path: '/subsidiaries/hainandianshang',
+              name: 'subsidiaries',
+              component: resolve => require(['@/view/subsidiaries_hainandianshang'], resolve),
               meta: {
-                title: '软件产品丨大数据管理系统'
+                title: '海南贸易网'
               }
             }
           ]

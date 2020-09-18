@@ -1,10 +1,10 @@
 <template>
-    <div id="Software" class="container">
+    <div id="subsidiaries" class="container">
         <div class="row">
             <div id="left" class="col-md-4 col-xs-12">
                 <ul class="left-container wow bounceInLeft">
                     <p>旗下企业</p>
-                    <li v-for="(item,index) in softwareList" :key="index">
+                    <li v-for="(item,index) in subsidiariesList" :key="index">
                         <router-link :to=item.path>{{item.name}}</router-link>
                     </li>
                 </ul>
@@ -18,15 +18,15 @@
 <script>
 import { WOW } from "wowjs";
 export default {
-    name: 'Software',
+    name: 'subsidiaries',
     data(){
         return{
-            softwareList: [
+            subsidiariesList: [
                 {
-                    path: '/software/smartTown',
+                    path: '/subsidiaries/bozhoulongli',
                     name: '亳州回收资源有限责任公司'
                 },{
-                    path: '/software/bigData',
+                    path: '/subsidiaries/hainandianshang',
                     name: '海南自贸区电子商务责任有限公司'
                 }
             ]
