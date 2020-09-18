@@ -1,11 +1,11 @@
 <template>
-    <div id="Software">
+    <div id="subsidiaries">
         龙利集团海南自贸区电子商务责任有限公司龙利集团海南自贸区电子商务责任有限公司龙利集团海南自贸区电子商务责任有限公司
     </div>
 </template>
 <script>
 export default {
-    name: 'Software',
+    name: 'subsidiaries',
     data(){
         return{
 

@@ -26,7 +26,7 @@
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-          <img class="img-responsive" src="@/assets/img/img1.png" alt="大数据管理系统">
+          <router-link to="/servicedetail"><img class="img-responsive" src="@/assets/img/img1.png" alt="一站式服务"></router-link>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h2 class="bigData-title">
@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <!-- 合作伙伴 -->
+    <!-- 客户评价 -->
     <div id="customer" class="container-fuild">
       <div class="container customer-container">
         <div class="container-1">
@@ -179,18 +179,18 @@ export default {
             "北京大账房信息技术有限公司是以财税SAAS细分服务为主营业务的有限公司。是一家由财税专家，软件、互联网精英发起的国家高新技术企业，致力于打造中国第一流互联网+记账平台，为“大众创业、万众创新”打造服务支持系统，拥有100多项核心软件著作与技术专利，为千万企业提供线上线下财税解决方案，在全国34省拥有500多个服务机构，12000多人服务团队，服务网点覆盖全国400多个城市，已经完成融资4亿元。大账房致力于以科技为驱动，打造票、财、税、人资、社保、金融一站式生态服务平台，服务全国万千企业。"
         },
         {
-          logo: require("@/assets/img/logo_zs.jpg"), 
+          logo: require("@/assets/img/logo_zs.jpg"),
           title:
-            "北京中税税务咨询股份有限公司",
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "1997年北京中税税务师事务所成立，2018年改名为北京中税税务咨询股份有限公司， 并先后成立了服务不同行业的四家科技公司，控股覆盖全国主要城市的咨询服务代理机构， 形成一家全国性大型综合的税务服务集团。中税始终秉承诚信、高效、专业和创新的服务理念，在坚守中创新，伴随中国税收征管“互联网 + 税务”的变革，中税通过云端构建“信息化 + 咨询”的“数字中税”服务新模式，以标准的信息化产品和专业的咨询服务产品，更广泛的为客户提供更高水平的涉税服务，为企业的经济活动保驾护航。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
         },
         {
-          logo: require("@/assets/img/logo_zy.png"),
+          logo: require("@/assets/img/logo_toyota.png"),
           title:
-            "正业国际控股有限公司",
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "正业国际控股有限公司(「正业国际」或「公司」，连同其附属公司，并于香港联合交易所上市(「集团」股份代号:3363)，是一家集废纸回收、生态制造环保包装用纸、纸类包装产品的大型包装生产企业集团，为产品包装提供一体化解决方案。自1999年公司成立至今，已发展成为中国具有实力的大型家用空调包装制造商，正业国际深耕于名牌家电、食品调味料及电子产品的包装和高强瓦楞芯纸的研发生产、再生资源管理的服务等行业，也是中国先进的纸制包装生产企业优秀代表"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
         },
 
       ],
@@ -273,7 +273,14 @@ export default {
       live: true
     })
     wow.init();
-  }
+  },
+  methods: {
+    
+    // toService(){
+    //   this.$router.push({path:"/servicedetail"})
+    // }
+  },
+
 };
 </script>
 <style scoped>

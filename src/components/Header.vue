@@ -94,15 +94,15 @@ export default {
         },
         {
           name: "旗下企业",
-          path: "/software",
+          path: "/subsidiaries",
           children: [
             {
               name: "亳州回收资源有限责任公司",
-              path: "/software/smartTown"
+              path: "/subsidiaries/bozhoulongli"
             },
             {
               name: "海南自贸区电子商务责任有限公司",
-              path: "/software/bigData"
+              path: "/subsidiaries/hainandianshang"
             }
           ]
         },
