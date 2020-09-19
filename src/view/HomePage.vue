@@ -36,7 +36,7 @@
           <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。略略略</p>
           <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
           <h2 class="bigData-device">PC/PAD/Phone &nbsp; 全设备支持</h2>
-          <a href="#" class="btn btn-lg btn-block btn-info">联系我们</a>
+          <a href="" class="btn btn-lg btn-block btn-info">联系我们</a>
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@
                 <img src="@/assets/img/yinhao.png" alt="引号">
               </div>
               <div class="customer-content1">
-                <small>{{item.content}}</small>
+                <small>&emsp;&emsp;{{item.content}}</small>
               </div>
               <div class="customer-content2">{{item.title}}</div>
             </div>
@@ -150,25 +150,25 @@ export default {
         {
           img: require("@/assets/img/banner1.jpg"),
           path: "",
-          title: '1',
+          title: '',
           content: '',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '2',
+          title: '',
           content: '',
         },
         {
           img: require("@/assets/img/banner3.jpg"),
           path: "",
-          title: '3',
+          title: '',
           content: '',
         },
         {
           img: require("@/assets/img/banner4.jpg"),
           path: "",
-          title: '4',
+          title: '',
           content: '',
         }
       ],
@@ -179,7 +179,7 @@ export default {
           title:
             "北京大帐房信息技术有限公司",
           content:
-            "北京大账房信息技术有限公司是以财税SAAS细分服务为主营业务的有限公司。是一家由财税专家，软件、互联网精英发起的国家高新技术企业，致力于打造中国第一流互联网+记账平台，为“大众创业、万众创新”打造服务支持系统，拥有100多项核心软件著作与技术专利，为千万企业提供线上线下财税解决方案，在全国34省拥有500多个服务机构，12000多人服务团队，服务网点覆盖全国400多个城市，已经完成融资4亿元。大账房致力于以科技为驱动，打造票、财、税、人资、社保、金融一站式生态服务平台，服务全国万千企业。"
+             "北京大账房信息技术有限公司是以财税SAAS细分服务为主营业务的有限公司。是一家由财税专家，软件、互联网精英发起的国家高新技术企业，致力于打造中国第一流互联网+记账平台，为“大众创业、万众创新”打造服务支持系统，拥有100多项核心软件著作与技术专利，为千万企业提供线上线下财税解决方案，在全国34省拥有500多个服务机构，12000多人服务团队，服务网点覆盖全国400多个城市，已经完成融资4亿元。大账房致力于以科技为驱动，打造票、财、税、人资、社保、金融一站式生态服务平台，服务全国万千企业。"
         },
         {
           logo: require("@/assets/img/logo_zs.jpg"),
@@ -316,7 +316,7 @@ export default {
   width: 100%;
   height: 100%;
   color: #fff;
-  background: rgba(51, 51, 51, 0.534);
+  /* background: rgba(51, 51, 51, 0.534); */
   text-align: center;
   line-height: 80px;
 }
