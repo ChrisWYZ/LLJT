@@ -26,7 +26,7 @@
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-          <router-link to="/servicedetail"><img class="img-responsive" src="@/assets/img/img1.png" alt="一站式服务"></router-link>
+          <router-link to="/service"><img class="img-responsive" src="@/assets/img/img1.png" alt="一站式服务"></router-link>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h2 class="bigData-title">
@@ -71,7 +71,9 @@
               :key="index"
             >
               <div class="customer-logo">
-                <img class="center-block" :src="item.logo" alt="logo">
+            <a :href="item.url">
+              <img class="center-block" :src="item.logo" alt="logo">
+            </a>  
               </div>
               <div class="customer-yh">
                 <img src="@/assets/img/yinhao.png" alt="引号">
@@ -173,6 +175,7 @@ export default {
       customerList: [
         {
           logo: require("@/assets/img/logo_dzf.jpg"),
+          url:"https://www.dazhangfang.com/",
           title:
             "北京大帐房信息技术有限公司",
           content:
@@ -180,17 +183,18 @@ export default {
         },
         {
           logo: require("@/assets/img/logo_zs.jpg"),
+          url:"http://www.zstax.com/#/",
           title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
+            "北京中税税务咨询股份有限公司",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "1997年北京中税税务师事务所成立，2018年改名为北京中税税务咨询股份有限公司， 并先后成立了服务不同行业的四家科技公司，控股覆盖全国主要城市的咨询服务代理机构， 形成一家全国性大型综合的税务服务集团。中税始终秉承诚信、高效、专业和创新的服务理念，在坚守中创新，伴随中国税收征管“互联网 + 税务”的变革，中税通过云端构建“信息化 + 咨询”的“数字中税”服务新模式，以标准的信息化产品和专业的咨询服务产品，更广泛的为客户提供更高水平的涉税服务，为企业的经济活动保驾护航。"
         },
         {
-          logo: require("@/assets/img/logo_toyota.png"),
+          logo: require("@/assets/img/logo_zy.png"),
           title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
+            "正业国际控股有限公司",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "正业国际控股有限公司(「正业国际」或「公司」，连同其附属公司，并于香港联合交易所上市(「集团」股份代号:3363)，是一家集废纸回收、生态制造环保包装用纸、纸类包装产品的大型包装生产企业集团，为产品包装提供一体化解决方案。自1999年公司成立至今，已发展成为中国具有实力的大型家用空调包装制造商，正业国际深耕于名牌家电、食品调味料及电子产品的包装和高强瓦楞芯纸的研发生产、再生资源管理的服务等行业，也是中国先进的纸制包装生产企业优秀代表。"
         },
 
       ],
