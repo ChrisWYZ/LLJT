@@ -17,7 +17,7 @@
             :key="index"
         >
             <div class="customer-logo">
-                <img class="center-block" id="xuanchuantu" :src="item.img" alt="picture">
+                <img v-image-preview class="center-block" id="xuanchuantu" :src="item.img" alt="picture">
             </div>
         </div>
 
@@ -28,9 +28,48 @@
 
 历经风雨数载，宋军先生积累了丰厚的经验，公司在宋总的带领下，秉持着诚信赢天下的宗旨，在今后的发展中将会致力于打造规模规范标准专业信息化再生资源回收供给平台，相信亳州龙利再生资源回收有限公司的发展会越来越辉煌
     </div>
+    <!-- 图片宣传 -->
+    <div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="@/assets/img/zhengshu1.jpg" alt="1">
+                <img src="@/assets/img/zhengshu2.jpg" alt="2">
+            </div>
+            <div class="item">
+                <img src="@/assets/img/zhengshu3.jpg" alt="3">
+                <img src="@/assets/img/zhengshu4.jpg" alt="4">
+            </div>
+            <div class="item">
+                <img src="@/assets/img/zhengshu5.jpg" alt="5">
+                <img src="@/assets/img/zhengshu6.jpg" alt="6">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <!-- <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev"> <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a>
+        <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;</a> -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+    
 
     
-    </div>
+</div>
 </template>
 <script>
 export default {
@@ -75,6 +114,15 @@ export default {
         border: 0.5px solid #efefef;
         border-radius: 15%;
 
+    }
+    #myCarousel{
+        margin-top: 25px;
+    }
+    .item > img {
+        width: 260px;
+        height: 165px;
+        position: relative;
+        right: 16%;
     }
 
 
