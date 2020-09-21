@@ -26,30 +26,30 @@
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-          <router-link to="/service"><img class="img-responsive" src="@/assets/img/img1.png" alt="一站式服务"></router-link>
+          <router-link to="/service"><img class="img-responsive" src="@/assets/img/yzsff.jpg" alt="一站式服务"></router-link>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h2 class="bigData-title">
-            大数据管理系统
-            <small>/ Big Data Management System</small>
+            一站式服务
+            <small>/ One stop service</small>
           </h2>
-          <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。略略略</p>
-          <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
-          <h2 class="bigData-device">PC/PAD/Phone &nbsp; 全设备支持</h2>
-          <a href="" class="btn btn-lg btn-block btn-info">联系我们</a>
+          <p>立足于海南自贸区、知政策、享优惠、寻商机。海南龙利跨境电商集团有限公司，致力打造“互联网+再生资源”，“互联网+国际贸易”，“互联网+财税服务”的跨境电商平台，提供省心、放心的工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关一站式服务!</p>
+          <p>欢迎大家协同合作，资源整合，利益最大化！</p>
+          <!-- <h2 class="bigData-device">PC/PAD/Phone &nbsp; 全设备支持</h2> -->
+          <router-link to="/servicedetail" class="btn btn-lg btn-block btn-info">了解详情</router-link>
         </div>
       </div>
     </div>
     <!-- 您身边的IT专家 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
-        <h1>您身边的IT专家</h1>
-        <h3>7x24小时提供出色的IT服务</h3>
-        <button
+        <h1>诚实守信&nbsp;知行合一</h1>
+        <h3>用双手开拓进取，用能力创造未来。</h3>
+        <router-link to="/ContactUS"><button 
           class="btn btn-default btn-sm"
           onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
           onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
-        >联系我们</button>
+        >联系我们</button></router-link>
         <div class="contactUs-contactWay">
           <span></span>
           <span></span>
@@ -191,6 +191,7 @@ export default {
         },
         {
           logo: require("@/assets/img/logo_zy.png"),
+          url:"javascript:void(0)",
           title:
             "正业国际控股有限公司",
           content:
@@ -202,22 +203,22 @@ export default {
         {
           logo: require("@/assets/img/tel.png"),
           title: "核心优势1",
-          content: "<p>由专业客服提供人工服务</p>负责疑难问题和故障受理"
+          content: "<p>选择我们一劳永逸</p>省钱|省时|省心|省事"
         },
         {
           logo: require("@/assets/img/computer.png"),
           title: "核心优势2",
-          content: "<p>利用远程视频工具，提供协助</p>帮助客户进行调试、解决故障"
+          content: "<p>专业代办进出口资质</p>极速拿证！"
         },
         {
           logo: require("@/assets/img/qq.png"),
           title: "核心优势3",
-          content: "<p>利用企业QQ提供在线解答</p>帮助企业快速准确解决问题和故障"
+          content: "<p>专业高效报关服务</p>快速完成货物清关"
         },
         {
           logo: require("@/assets/img/skill.png"),
           title: "核心优势4",
-          content: "<p>由技术支持工程师，负责问题解答</p>需求受理及故障受理"
+          content: "<p>免费提供专业工商注册</p>服务有保障，注册更快速！"
         }
       ]
     };
