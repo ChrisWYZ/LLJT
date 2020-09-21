@@ -10,10 +10,11 @@
                 <a href="javascript:void(0)" class="active">行业动态</a>
             </div>
             <ul class="news-container container-fuild">
-                <li v-for="(item,index) in newsList" :key="index" class="wow fadeIn">
+                <li v-for="(item,index) in newsList" :key="index" class="wow fadeIn" data-toggle="modal" data-target="#myModal" @click="getIndex(index)">
                     <div class="content">
-                        <p>{{item.title}}</p>
+                        <p >{{item.title}}</p>
                         <p>{{item.introduce}}</p>
+                       
                     </div>
                     <div class="time">
                         <p>{{item.date}}</p>
@@ -23,11 +24,34 @@
                         <img src="../assets/img/circle.png">
                         <i class="line center-block"></i>
                     </div>
+                    
                 </li>
+                
             </ul>
             <div class="contaianer-fuild text-center more">
                 <i class="glyphicon glyphicon-th"></i>
             </div>
+            <!-- 模态框 -->
+            <template>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+            </template>
+            <!-- 模态框结束 -->
+
         </div>
     </div>
 </template>
@@ -37,19 +61,24 @@ export default {
     name: 'NewsInformation',
     data(){
         return{
+            
             newsList:[
                 {
                     id: '001',
                     title: '世界上第一个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
                     date: '05-20',
-                    year: '2019'
+                    year: '2019',
+
+                
+                    
                 },{
                     id: '002',
                     title: '世界上第二个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
                     date: '05-24',
                     year: '2019'
+                 
                 },{
                     id: '003',
                     title: '世界上第三个程序员',
@@ -75,13 +104,25 @@ export default {
                     date: '05-24',
                     year: '2019'
                 }
-            ]
+                
+            ],
+            
+           
         }
+        
     },
     mounted(){
         var wow = new WOW();
         wow.init();
+        
     },
+    methods:{
+        getIndex(index){
+            // const node = document.querySelector(`.list-item-${index}`)
+            console.log(index)
+        }
+    }
+
 }
 </script>
 <style scoped>
