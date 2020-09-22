@@ -94,7 +94,16 @@ export default new Router({
           meta: {
             title: '相关服务'
           }
-        }
+        },
+        /*添加六个的新闻路由 */
+        {
+          path: '/news1',
+          name: 'news1',
+          component: resolve => require(['@/view/news1'], resolve),
+          meta: {
+            title: '新闻动态'
+          }
+         }
       ]
     }
   ],
