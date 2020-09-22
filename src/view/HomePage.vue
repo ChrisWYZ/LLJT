@@ -353,7 +353,7 @@ export default {
 #contactUs {
   color: #fff;
   height: 400px;
-  background: url("../assets/img/contact_us_bg.jpg") 0 0 no-repeat;
+  background: url("../assets/img/kouhao.jpg") 0 0 no-repeat;
   background-size: 100% 100%;
   transition: all ease 0.6s;
 }
@@ -455,6 +455,7 @@ export default {
 #whyChooseUs .server-block > div {
   color: #ccc;
 }
+
 /* 媒体查询（手机） */
 @media screen and (max-width: 768px) {
   #swiper {

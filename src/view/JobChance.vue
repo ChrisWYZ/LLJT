@@ -1,8 +1,9 @@
 <template>
   <div id="JobChance">
     <div class="banner container-fuild text-center">工作机会</div>
-    <div class="container">
-      <div class="JobChance-container wow pulse">
+    <div class="container-fuild">
+    <div class="container row">
+      <div class="JobChance-container wow pulse col-md-12">
         <h2>推广运营</h2>
         <p>岗位职责</p>
         <ol>
@@ -20,10 +21,10 @@
           <li>具备基础的Excel、SPSS知识及较强的文档编写能力；</li>
           <li>优秀的项目管理能力，能推动项目的执行与落地；</li>
         </ol>
-        <button class="center-block btn btn-warning btn-lg">投递简历</button>
+        <button class="center-block btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">联系我们</button>
       </div>
 
-      <div class="JobChance-container wow pulse">
+      <div class="JobChance-container wow pulse col-md-12">
         <h2>推广运营</h2>
         <p>岗位职责</p>
         <ol>
@@ -41,8 +42,31 @@
           <li>具备基础的Excel、SPSS知识及较强的文档编写能力；</li>
           <li>优秀的项目管理能力，能推动项目的执行与落地；</li>
         </ol>
-        <button class="center-block btn btn-warning btn-lg">投递简历</button>
+        <button class="center-block btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">查看详情</button>
       </div>
+      <!-- modal框 -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">请通过以下方式投递简历</h4>
+            </div>
+            <div class="modal-body">
+              <ol>
+                <li>QQ</li>
+                <li>邮箱</li>
+                <li>微信</li>
+              </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
     </div>
   </div>
 </template>
@@ -72,19 +96,19 @@ export default {
   background-position: center center;
 }
 .JobChance-container {
-  margin: 100px;
+  margin: 50px 200px;
   padding: 30px;
   transition: all ease 0.5s;
-  border: 1px dashed salmon;
+  border: 1px dashed rgb(54, 141, 24);
 }
 .JobChance-container h2{
-  color: rgb(255, 102, 19);
+  color: rgb(54, 141, 24);
   font-weight: bolder;
   text-align: center;
 }
 .JobChance-container p{
 font-size: 20px;
-  color: rgb(255, 102, 19);
+  color: rgb(54, 141, 24);
   font-weight: 700;
 }
 .JobChance-container ol{
@@ -99,7 +123,7 @@ font-size: 20px;
   .JobChance-container {
     margin: 20px 0;
     padding: 20px;
-    border: 1px dashed salmon;
+    border: 1px dashed rgb(54, 141, 24);
   }
 }
 </style>

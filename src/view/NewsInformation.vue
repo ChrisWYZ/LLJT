@@ -10,7 +10,7 @@
                 <a href="javascript:void(0)" class="active">行业动态</a>
             </div>
             <ul class="news-container container-fuild">
-                <li v-for="(item,index) in newsList" :key="index" class="wow fadeIn" data-toggle="modal" data-target="#myModal" @click="getIndex(index)">
+                <li v-for="(item,index) in newsList" :key="index" class="wow fadeIn"  @click="toURL(item.id)">
                     <div class="content">
                         <p >{{item.title}}</p>
                         <p>{{item.introduce}}</p>
@@ -31,27 +31,7 @@
             <div class="contaianer-fuild text-center more">
                 <i class="glyphicon glyphicon-th"></i>
             </div>
-            <!-- 模态框 -->
-            <template>
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-            </template>
-            <!-- 模态框结束 -->
-
+            
         </div>
     </div>
 </template>
@@ -90,7 +70,7 @@ export default {
                     title: '世界上第四个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
                     date: '05-24',
-                    year: '2019'
+                    year: '2018'
                 },{
                     id: '005',
                     title: '世界上第五个程序员',
@@ -117,9 +97,41 @@ export default {
         
     },
     methods:{
-        getIndex(index){
+        diss(){},
+        toURL(id){
             // const node = document.querySelector(`.list-item-${index}`)
-            console.log(index)
+            // console.log(index)
+            if(id==1){
+                this.$router.push({
+                    path: '/service'
+                })
+            }
+            else if(id==2){
+                this.$router.push({
+                    path: '/service'
+                })
+            }
+            else if(id==3){
+                this.$router.push({
+                    path: '/service'
+                })
+            }
+            else if(id==4){
+                this.$router.push({
+                    path: '/service'
+                })
+            }
+            else if(id==5){
+                this.$router.push({
+                    path: '/service'
+                })
+            }
+            else if(id==6){
+                this.$router.push({
+                    path: '/service'
+                })
+            }
+
         }
     }
 
@@ -139,12 +151,12 @@ export default {
     border: 1px solid #333;
 }
 .nav>a.active{
-    color: #1e73be;
-    border-color: #1e73be;
+    color: #333;
+    border-color: #333;
 }
 .nav>a:hover{
-    color: #1e73be;
-    border-color: #1e73be;
+    color: rgb(54, 141, 24);
+    border-color:  rgb(54, 141, 24);
 }
 .news-container{
     overflow: hidden;
@@ -156,12 +168,12 @@ export default {
     float: left;
     color: #333;
     text-align: right;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
+    border-left: .5px solid transparent;
+    border-right: .5px solid transparent;
 }
 .news-container>li:hover{
-    color: #1e73be;
-    border: 1px solid #1e73be;
+    color: rgb(54, 141, 24);
+    border: 1px solid  rgb(54, 141, 24);
     cursor: pointer;
 }
 .news-container>li:nth-of-type(2n){
@@ -245,4 +257,3 @@ export default {
     }
 }
 </style>
-
