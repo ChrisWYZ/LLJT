@@ -33,6 +33,25 @@
             </div>
             
         </div>
+                <!-- 联系我们 -->
+    <div id="contactUs" class="container-fuild text-center">
+      <div class="container contactUs-container wow slideInUp">
+        <h1>诚实守信&nbsp;知行合一</h1>
+        <h3>用双手开拓进取，用能力创造未来。</h3>
+        <h3>言必信、行必果！</h3>
+        <h3>人人讲诚信、事事做诚信！</h3>
+        <router-link to="/ContactUS"><button 
+          class="btn btn-default btn-sm"
+          onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
+          onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
+        >联系我们</button></router-link>
+        <div class="contactUs-contactWay">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
     </div>
 </template>
 <script>
@@ -47,7 +66,7 @@ export default {
                     id: '001',
                     title: '世界上第一个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    logo: require("@/assets/img/logo_dzf.jpg"),
+                    logo: require("@/assets/img/xinwen1.jpg"),
                     date: '05-20',
                     year: '2019',
 
@@ -277,6 +296,34 @@ export default {
   #customer .customer-block > div {
     padding: 30px 0;
   }
-}
 
+}
+  /* 联系我们 */
+#contactUs {
+  color: #fff;
+  height: 400px;
+  background: url("../assets/img/kouhao.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+  transition: all ease 0.6s;
+  padding: 80px;
+}
+/* 口号+按钮 */
+#contactUs .contactUs-container {
+  padding: 0px;
+} 
+/* 按钮 */
+ #contactUs .contactUs-container button {
+  width: 300px;
+  height: 50px;
+  margin-top:20px;
+} 
+ #contactUs .contactUs-container .contactUs-contactWay span {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: 30px;
+} 
+.customer-block {
+height: 300px;
+}
 </style>
