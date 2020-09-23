@@ -14,7 +14,7 @@
                     <div class="content">
                         <p >{{item.title}}</p>
                         <p>{{item.introduce}}</p>
-                       
+                        <img class="center-block" :src="item.logo" height="280" width="350" alt="logo">
                     </div>
                     <div class="time">
                         <p>{{item.date}}</p>
@@ -47,6 +47,7 @@ export default {
                     id: '001',
                     title: '世界上第一个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-20',
                     year: '2019',
 
@@ -56,6 +57,7 @@ export default {
                     id: '002',
                     title: '世界上第二个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2019'
                  
@@ -63,24 +65,28 @@ export default {
                     id: '003',
                     title: '世界上第三个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2019'
                 },{
                     id: '004',
                     title: '世界上第四个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2018'
                 },{
                     id: '005',
                     title: '世界上第五个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2019'
                 },{
                     id: '006',
                     title: '世界上第六个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2019'
                 }
@@ -164,7 +170,7 @@ export default {
 }
 .news-container>li{
     width: 55.6%;
-    height: 120px;
+    height: 420px;
     float: left;
     color: #333;
     text-align: right;
@@ -255,5 +261,22 @@ export default {
     .news-container>li>.circle{
         display: none;
     }
+    #customer .customer-logo img {
+  width: 94px;
+  height: 94px;
+  border: 1px solid #ccc;
 }
+  #customer .customer-logo img {
+    margin-left:30px;  
+    width: 48px;
+    height: 48px;
+  }
+  #customer .customer-block {
+    padding: 30px;
+  }
+  #customer .customer-block > div {
+    padding: 30px 0;
+  }
+}
+
 </style>
