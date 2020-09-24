@@ -1,5 +1,5 @@
 <template>
-  <div id="News">    
+  <div id="News">
     <div class="title text-center">
       <h4> 新闻标题
         <small>/News headlines</small>
@@ -24,7 +24,7 @@
 
     <div class="container">
       <p>
-        1由我亳州龙利、亳州龙翔、海南自贸区龙利电子商务、海南龙利国际贸易、海南隆利源国际贸易五家公司共同出资成立的海南龙利跨境电商集团有限公司，致力打造互联网+再生资源、互联网+国际贸易、互联网+财税服务的跨境电商平台! <br/> 
+        2由我亳州龙利、亳州龙翔、海南自贸区龙利电子商务、海南龙利国际贸易、海南隆利源国际贸易五家公司共同出资成立的海南龙利跨境电商集团有限公司，致力打造互联网+再生资源、互联网+国际贸易、互联网+财税服务的跨境电商平台! <br/> 
       </p>  
       <p>
         海南龙利跨境电商集团有限公司，简称“龙利集团”,目前全龙利集团注册地址海南省海口市海垦路119号九九华府C栋2001，集团公司主营业务为互联网批发：互联网+再生资源、互联网+财税服务、互联网+国际贸易。国已经拥有近10个关联公司，2020年在中央宣布成立海南自贸港的政策下，龙利集团加快了整合步伐，以海南自贸区龙利电子商务有限责任公司为母公司，整合海南龙利国际贸易公司、海南隆利源国际贸易有限公司、亳州龙利再生资源、亳州龙翔木业、亳州隆利丰再生资源、亳州隆利源再生资源、黑龙江龙利再生资源等10个再生资源公司，公司业务扩展到境外的美国、欧洲、东南亚国家，境内海南、广东、广西、福建、上海、重庆、河南、安徽、黑龙江等省份。
@@ -84,32 +84,32 @@ export default {
         toURL(id){
             // const node = document.querySelector(`.list-item-${index}`)
             // console.log(index)
-            if(id == 'News-1'){
+            if(id == "News-1"){
                 this.$router.push({
                     path: '/news1'
                 })
             }
-            else if(id == 'News-2'){
+            else if(id == "News-2"){
                 this.$router.push({
                     path: '/news2'
                 })
             }
-            else if(id == 'News-3'){
+            else if(id == "News-3"){
                 this.$router.push({
                     path: '/news3'
                 })
             }
-            else if(id == 'News-4'){
+            else if(id == "News-4"){
                 this.$router.push({
                     path: '/news4'
                 })
             }
-            else if(id == 'News-5'){
+            else if(id == "News-5"){
                 this.$router.push({
                     path: '/news5'
                 })
             }
-            else if(id == 'News-6'){
+            else if(id == "News-6"){
                 this.$router.push({
                     path: '/news6'
                 })
@@ -169,7 +169,7 @@ ul.nav-tabs p {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  background:#474747;
+  background: #474747;
   margin: 0;
   padding: 10px 0;
 }

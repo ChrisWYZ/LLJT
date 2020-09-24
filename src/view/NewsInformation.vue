@@ -103,32 +103,32 @@ export default {
             // console.log(index)
             if(id==1){
                 this.$router.push({
-                    path: '/service'
+                    path: '/news1'
                 })
             }
             else if(id==2){
                 this.$router.push({
-                    path: '/service'
+                    path: '/news2'
                 })
             }
             else if(id==3){
                 this.$router.push({
-                    path: '/service'
+                    path: '/news3'
                 })
             }
             else if(id==4){
                 this.$router.push({
-                    path: '/service'
+                    path: '/news4'
                 })
             }
             else if(id==5){
                 this.$router.push({
-                    path: '/service'
+                    path: '/news5'
                 })
             }
             else if(id==6){
                 this.$router.push({
-                    path: '/service'
+                    path: '/news6'
                 })
             }
 
