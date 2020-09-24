@@ -91,7 +91,7 @@
         <div class="row visible-xs customer-block">
           <div class="col-xs-12" v-for="(item,index) in customerList" :key="index">
             <div class="customer-logo">
-              <img class="center-block" :src="item.logo" alt="logo">
+              
             </div>
             <div class="customer-yh">
               <img src="@/assets/img/yinhao.png" alt="引号">
@@ -393,7 +393,7 @@ export default {
   background-size: 100% 100%;
 }
 
-/* 客户评价 */
+/* 合作伙伴 */
 #customer {
   padding: 50px 0;
   box-sizing: border-box;

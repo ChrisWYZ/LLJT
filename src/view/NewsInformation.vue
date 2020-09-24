@@ -14,7 +14,7 @@
                     <div class="content">
                         <p >{{item.title}}</p>
                         <p>{{item.introduce}}</p>
-                       
+                        <img class="center-block" :src="item.logo" height="280" width="350" alt="logo">
                     </div>
                     <div class="time">
                         <p>{{item.date}}</p>
@@ -33,6 +33,25 @@
             </div>
             
         </div>
+                <!-- 联系我们 -->
+    <div id="contactUs" class="container-fuild text-center">
+      <div class="container contactUs-container wow slideInUp">
+        <h1>诚实守信&nbsp;知行合一</h1>
+        <h3>用双手开拓进取，用能力创造未来。</h3>
+        <h3>言必信、行必果！</h3>
+        <h3>人人讲诚信、事事做诚信！</h3>
+        <router-link to="/ContactUS"><button 
+          class="btn btn-default btn-sm"
+          onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
+          onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
+        >联系我们</button></router-link>
+        <div class="contactUs-contactWay">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
     </div>
 </template>
 <script>
@@ -47,6 +66,7 @@ export default {
                     id: '001',
                     title: '世界上第一个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/xinwen1.jpg"),
                     date: '05-20',
                     year: '2019',
 
@@ -56,6 +76,7 @@ export default {
                     id: '002',
                     title: '世界上第二个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2019'
                  
@@ -63,24 +84,28 @@ export default {
                     id: '003',
                     title: '世界上第三个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2019'
                 },{
                     id: '004',
                     title: '世界上第四个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2018'
                 },{
                     id: '005',
                     title: '世界上第五个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2019'
                 },{
                     id: '006',
                     title: '世界上第六个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
+                    logo: require("@/assets/img/logo_dzf.jpg"),
                     date: '05-24',
                     year: '2019'
                 }
@@ -164,7 +189,7 @@ export default {
 }
 .news-container>li{
     width: 55.6%;
-    height: 120px;
+    height: 420px;
     float: left;
     color: #333;
     text-align: right;
@@ -255,5 +280,50 @@ export default {
     .news-container>li>.circle{
         display: none;
     }
+    #customer .customer-logo img {
+  width: 94px;
+  height: 94px;
+  border: 1px solid #ccc;
+}
+  #customer .customer-logo img {
+    margin-left:30px;  
+    width: 48px;
+    height: 48px;
+  }
+  #customer .customer-block {
+    padding: 30px;
+  }
+  #customer .customer-block > div {
+    padding: 30px 0;
+  }
+
+}
+  /* 联系我们 */
+#contactUs {
+  color: #fff;
+  height: 400px;
+  background: url("../assets/img/kouhao.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+  transition: all ease 0.6s;
+  padding: 80px;
+}
+/* 口号+按钮 */
+#contactUs .contactUs-container {
+  padding: 0px;
+} 
+/* 按钮 */
+ #contactUs .contactUs-container button {
+  width: 300px;
+  height: 50px;
+  margin-top:20px;
+} 
+ #contactUs .contactUs-container .contactUs-contactWay span {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: 30px;
+} 
+.customer-block {
+height: 300px;
 }
 </style>
