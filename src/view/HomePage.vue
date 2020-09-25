@@ -148,25 +148,25 @@ export default {
     return {
       swiperList: [
         {
-          img: require("@/assets/img/banner1.jpg"),
+          img: require("@/assets/img/banner5.jpg"),
           path: "",
           title: '',
           content: '',
         },
         {
-          img: require("@/assets/img/banner2.jpg"),
+          img: require("@/assets/img/banner6.jpg"),
           path: "",
           title: '',
           content: '',
         },
         {
-          img: require("@/assets/img/banner3.jpg"),
+          img: require("@/assets/img/banner7.jpg"),
           path: "",
           title: '',
           content: '',
         },
         {
-          img: require("@/assets/img/banner4.jpg"),
+          img: require("@/assets/img/banner8.jpg"),
           path: "",
           title: '',
           content: '',
