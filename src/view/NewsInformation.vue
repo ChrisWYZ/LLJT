@@ -14,7 +14,7 @@
                     <div class="content">
                         <p >{{item.title}}</p>
                         <p>{{item.introduce}}</p>
-                        <img class="center-block" :src="item.logo" height="280" width="350" alt="logo">
+                        <img class="center-block" id="photo" :src="item.logo"  alt="logo">
                     </div>
                     <div class="time">
                         <p>{{item.date}}</p>
@@ -76,7 +76,7 @@ export default {
                     id: '002',
                     title: '世界上第二个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    logo: require("@/assets/img/logo_dzf.jpg"),
+                    logo: require("@/assets/img/xinwen2.jpg"),
                     date: '05-24',
                     year: '2019'
                  
@@ -105,7 +105,7 @@ export default {
                     id: '006',
                     title: '世界上第六个程序员',
                     introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
-                    logo: require("@/assets/img/logo_dzf.jpg"),
+                    logo: require("@/assets/img/xinwen1.jpg"),
                     date: '05-24',
                     year: '2019'
                 }
@@ -325,5 +325,17 @@ export default {
 } 
 .customer-block {
 height: 300px;
+}
+.news-container>li:nth-of-type(2n-1)>.content>#photo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 100px;
+}
+.news-container>li:nth-of-type(2n)>.content>#photo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 100px;
 }
 </style>
