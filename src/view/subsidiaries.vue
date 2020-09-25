@@ -1,16 +1,17 @@
 <template>
     <div id="subsidiaries" class="container">
         <div class="row">
-            <div id="left" class="col-md-4 col-xs-12">
-                <ul class="left-container wow bounceInLeft">
-                    <p>旗下企业</p>
-                    <li v-for="(item,index) in subsidiariesList" :key="index">
-                        <router-link :to=item.path>{{item.name}}</router-link>
-                    </li>
-                </ul>
-            </div>
-            <div id="right" class="col-md-8 col-xs-12  wow bounceInRight">
+            <div id="right" class="col-md-8 col-xs-12">
                 <router-view></router-view>
+                
+            </div>
+            <div id="left" class="col-md-4 col-xs-12  wow bounceInRight">
+                <ul class="left-container wow bounceInDowm">
+                    <p>旗下企业</p>
+                    <div  class=" btn center-block btn-lg" v-for="(item,index) in subsidiariesList" :key="index">
+                        <router-link :to=item.path>{{item.name}}</router-link>
+                    </div>
+                </ul>
             </div>
         </div>
     </div>
@@ -28,6 +29,12 @@ export default {
                 },{
                     path: '/subsidiaries/hainandianshang',
                     name: '海南自贸区电子商务责任有限公司'
+                },{
+                    path: '/subsidiaries/hainandianshang',
+                    name: '海南自贸区责任有限公司'
+                },{
+                    path: '/subsidiaries/hainandianshang',
+                    name: '海南隆利源责任有限公司'
                 }
             ]
         }
@@ -43,7 +50,8 @@ export default {
     margin: 50px 0;
 }
 .left-container{
-    width: 60%;
+    
+    width: 100%;
     margin: 0 auto;
     border: 1px solid #474747;
     border-radius: 5px;
@@ -53,22 +61,20 @@ export default {
     line-height: 45px;
     padding: 0;
     margin: 0;
-    background: #474747;
-    color: #fff;
+    background:linear-gradient(rgb(174,221,129),#fff);
+    color: #000;
     font-size: 18px;
     font-weight: bold;
 }
-.left-container>li {
-  text-align: center;
+.left-container>div {
   height: 38px;
-  line-height: 38px;
   margin: 0;
-  border-top: 1px solid #474747;
+  border-top: .5px solid #474747;
 }
-.left-container>li>a{
+.left-container>div>a{
     text-decoration: none;
 }
-.left-container>li:hover{
+.left-container>div:hover{
     background: #928989;
 }
 #right{
