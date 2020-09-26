@@ -4,27 +4,10 @@
       <h4> 新闻标题
         <small>/News headlines</small>
       </h4>
-      <!-- 添加一个转跳列表 -->
-      <div id="nav">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-3" id="myScrollspy">
-          <ul class="nav nav-tabs nav-stacked center-block" id="mynav">
-            <p>标题</p>
-            <li            
-              v-for="(item,index) in serviceList" :key="index" @click="toURL(item.id)">
-              <a :href="'#'+item.id">{{item.title}}</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-       <!-- 转跳列表结束 -->
-       </div>
-    </div>
-     
-
+    </div> 
     <div class="container">
       <p>
-       5由我亳州龙利、亳州龙翔、海南自贸区龙利电子商务、海南龙利国际贸易、海南隆利源国际贸易五家公司共同出资成立的海南龙利跨境电商集团有限公司，致力打造互联网+再生资源、互联网+国际贸易、互联网+财税服务的跨境电商平台! <br/> 
+        5由我亳州龙利、亳州龙翔、海南自贸区龙利电子商务、海南龙利国际贸易、海南隆利源国际贸易五家公司共同出资成立的海南龙利跨境电商集团有限公司，致力打造互联网+再生资源、互联网+国际贸易、互联网+财税服务的跨境电商平台! <br/> 
       </p>  
       <p>
         海南龙利跨境电商集团有限公司，简称“龙利集团”,目前全龙利集团注册地址海南省海口市海垦路119号九九华府C栋2001，集团公司主营业务为互联网批发：互联网+再生资源、互联网+财税服务、互联网+国际贸易。国已经拥有近10个关联公司，2020年在中央宣布成立海南自贸港的政策下，龙利集团加快了整合步伐，以海南自贸区龙利电子商务有限责任公司为母公司，整合海南龙利国际贸易公司、海南隆利源国际贸易有限公司、亳州龙利再生资源、亳州龙翔木业、亳州隆利丰再生资源、亳州隆利源再生资源、黑龙江龙利再生资源等10个再生资源公司，公司业务扩展到境外的美国、欧洲、东南亚国家，境内海南、广东、广西、福建、上海、重庆、河南、安徽、黑龙江等省份。
@@ -35,90 +18,24 @@
 公司公司的企业精神：诚实守信、知行合一。
 公司的企业口号：用双手开拓进取，用能力创造未来。
 公司的企业价值观：言必信、行必果！
-      </p>
-      <div class="picture"> 
-             <img src="../assets/img/hainanll3.jpg" alt="">  
-              <img src="../assets/img/banner3.jpg" alt="">                 
-        </div>         
-      </div>   
-     
-        
-  </div>
+      </p>           
+      </div>
+      <!-- 宣传图片添加 -->
+      <div class="container">
+          <div class="picture"> 
+            <div class="row">
+              <div class=" col-sm-6" id="demo1">
+                  <img src="../assets/img/hainanll3.jpg" alt="">             
+              </div>
+              <div class=" col-sm-6"  id="demo2">
+                  <img src="../assets/img/banner3.jpg" alt=""> 
+              </div>            
+            </div>
+          </div> 
+        </div>                         
+</div>
+  
 </template>
- <script>
- import { WOW } from "wowjs";
-export default {
-  name: "News",
-  data() {
-    return {
-      serviceList: [
-        {
-          id: "News-1",
-          title: "公司新闻1"
-        },
-        {
-          id: "News-2",
-          title: "公司新闻2"
-        },
-        {
-          id: "News-3",
-          title: "公司新闻3"
-        },
-        {
-          id: "News-4",
-          title: "行业新闻1"
-        },
-        {
-          id: "News-5",
-          title: "行业新闻2"
-        },
-        {
-          id: "News-6",
-          title: "行业新闻3"
-        },
-      ]
-    }
-  },
-  methods:{
-        diss(){},
-        toURL(id){
-            // const node = document.querySelector(`.list-item-${index}`)
-            // console.log(index)
-            if(id == 'News-1'){
-                this.$router.push({
-                    path: '/news1'
-                })
-            }
-            else if(id == 'News-2'){
-                this.$router.push({
-                    path: '/news2'
-                })
-            }
-            else if(id == 'News-3'){
-                this.$router.push({
-                    path: '/news3'
-                })
-            }
-            else if(id == 'News-4'){
-                this.$router.push({
-                    path: '/news4'
-                })
-            }
-            else if(id == 'News-5'){
-                this.$router.push({
-                    path: '/news5'
-                })
-            }
-            else if(id == 'News-6'){
-                this.$router.push({
-                    path: '/news6'
-                })
-            }
-
-        }
-    }
-}
-</script>
 <style >
  #News>.title>h4 {
   font-size: 30px;
@@ -127,67 +44,25 @@ export default {
   border-bottom: 1px solid #ccc;
 }
 #News>.container{
-  width: 70%; 
-  
+    width: 70%;  
+    padding: 2px;
 }
 #News>.container>p:first-letter {
    font-style:italic;
     font-size: 30px;
     float: left;
-    text-shadow: 3px 3px 3px #474747;    
+    text-shadow: 3px 3px 3px greenyellow;    
 }
 #News>.container>p {
    font-family:"华文陆帅","Arial","Angsana New";
     font-size: 20px;
     vertical-align:middle;   
 }
-#News>.container>.picture>img{
-    float: left;   
-    margin: 10px;
-    width:400px;
-    height: 400px; 
-}
-#nav{   
-  position:fixed
-}
-ul.nav-tabs {
-  width: 200px;
-  margin-top: 40px;
-  border-radius: 4px;
-  background: #fff;
-  z-index: 99999;
-  border: 1px solid #474747;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
-}
-ul.nav-tabs li {
-  text-align: center;
-  margin: 0;
-  border-top: 1px solid #474747;
-}
-ul.nav-tabs p {
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  background: #474747;
-  margin: 0;
-  padding: 10px 0;
-}
-ul.nav-tabs li:first-child {
-  border-top: none;
-}
-ul.nav-tabs li a {
-  margin: 0;
-  padding: 8px 16px;
-  border-radius: 0;
-}
-ul.nav-tabs li:first-child a {
-  border-radius: 4px 4px 0 0;
-}
-ul.nav-tabs li:last-child a {
-  border-radius: 0 0 4px 4px;
-}
-small{
-  font-size: 1px;
-}
+.picture img {      
+    width:100% ;
+    height: 100%;
+    padding: 2px;
+    border: .5px solid #ffffff;
+    border-radius: 10%;
+    }
 </style>
