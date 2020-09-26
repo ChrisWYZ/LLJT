@@ -18,13 +18,36 @@
 
     </div>
     <div calss="F2"> 
-        <p>欢迎想来海南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！</p>
+        <p>欢迎想来海南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或哈哈哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或哈哈哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈或南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或哈哈哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或哈哈哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或哈哈哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或哈哈哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或南享受自贸港优惠政策及寻找商机的朋友联系我们！我们提供从工商注册、公司办公、记账报税、在线交易、代办进出口资质、报关清关等一站式服务！哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或哈哈哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或</p>
     </div>   
      
+<!-- 轮播图 -->
+    <div id="swiper" class="container-fuild">
+      <div class="swiper-container banner-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" v-for="(item,index) in swiperList" :key="index">
+            <img class="swiper-lazy" :data-src="item.img" alt="轮播图">
+            <div class="swiper-lazy-preloader"></div>
+            <div class="swiper-slide-title">
+                <h1>{{item.title}}</h1>
+                <p>{{item.content}}</p>
+            </div>
+          </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <!-- 1234567890- -->
+        <!-- <div class="swiper-pagination"></div> -->
 
+        <!-- 如果需要导航按钮 -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      </div>
+    </div>
     </div>
 </template>
 <script>
+import Swiper from "swiper";
+import { WOW } from 'wowjs';
 export default {
     name: 'subsidiaries',
     data(){
@@ -39,10 +62,71 @@ export default {
                 {
                     img: require("@/assets/img/bozhoulongli3.jpg")
                 }
-            ]
+            ],
+            swiperList: [
+        {
+          img: require("@/assets/img/xinwen1.jpg"),
+          path: "",
+          title: '',
+          content: '',
+        },
+        {
+          img: require("@/assets/img/zhengshu1.jpg"),
+      
+          path: "",
+          title: '',
+          content: '',
+        },
+        {
+          img: require("@/assets/img/zhengshu2.jpg"),
+          path: "",
+          title: '',
+          content: '',
+        },
+        {
+          img: require("@/assets/img/zhengshu3.jpg"),
+          path: "",
+          title: '',
+          content: '',
+        }
+      ],
 
         }
-    }
+    },
+mounted() {
+    /* banner-swiper */
+    new Swiper(".banner-swiper", {
+      loop: true, // 循环模式选项
+      effect : 'coverflow',
+      slidesPerView: 3,
+      centeredSlides: true,
+      //自动播放
+      autoplay: {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false
+      },
+      // 如果需要分页器
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   dynamicBullets: true,
+      // },
+      // 如果需要前进后退按钮
+      // navigation: {
+      //   nextEl: ".swiper-button-next",
+      //   prevEl: ".swiper-button-prev"
+      // },
+      // 延迟加载
+      lazy: {
+        loadPrevNext: true
+      },
+      observer: true, //修改swiper自己或子元素时，自动初始化swiper
+      observeParents: true //修改swiper的父元素时，自动初始化swiper
+    });
+    
+    
+}
+    
 }
 </script>
 <style scoped>
@@ -59,6 +143,9 @@ img {
     float: left;
     border: 0.5px solid #efefef;
     border-radius: 15%;
+    }
+    img:hover {
+        transform: scale(1.1,1.1);
     }
     .laydiv{
         width: 100%;
@@ -91,5 +178,44 @@ img {
     /* .wenben{
         margin-right:30px;
     } */
+    /* 轮播图 */
+#swiper {
+  height: auto;
+  position: relative;
+  left: 0%;
+  top: 0;
+}
+#swiper .banner-swiper {
+  width: 100%;
+  height: 100%;
+}
+#swiper .banner-swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+#swiper .banner-swiper .swiper-slide{
+  position: relative;
+}
+#swiper .banner-swiper .swiper-slide-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  /* background: rgba(51, 51, 51, 0.534); */
+  text-align: center;
+  line-height: 80px;
+}
+#swiper .banner-swiper .swiper-slide-title > h1{
+  font-size: 50px;
+  margin-top: 12%;
+}
+#swiper .banner-swiper .swiper-slide-title > p{
+  font-size: 20px;
+  margin-top: 1%;
+  font-weight: 700;
+}
 </style>
 

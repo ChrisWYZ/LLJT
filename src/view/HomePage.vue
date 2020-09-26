@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-    <!-- 您身边的IT专家 -->
+    <!-- 口号 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
         <h1>诚实守信&nbsp;知行合一</h1>
@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <!-- 客户评价 -->
+    <!-- 合作伙伴 -->
     <div id="customer" class="container-fuild">
       <div class="container customer-container">
         <div class="container-1">
@@ -70,10 +70,11 @@
               v-for="(item,index) in customerList"
               :key="index"
             >
+            <!-- 图标地址跳转 -->
               <div class="customer-logo">
             <a :href="item.url">
               <img class="center-block" :src="item.logo" alt="logo">
-            </a>  
+            </a> <!--  结束 -->
               </div>
               <div class="customer-yh">
                 <img src="@/assets/img/yinhao.png" alt="引号">
@@ -237,7 +238,7 @@ export default {
       // 如果需要分页器
       pagination: {
         el: ".swiper-pagination",
-        clickable: true
+        dynamicBullets: true,
       },
       // 如果需要前进后退按钮
       navigation: {
