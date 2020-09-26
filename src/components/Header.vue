@@ -28,6 +28,7 @@
           :key="index"
           :class="index==navIndex?'active':''"
           @click="navClick(index,item.name)"
+          
         >
           <router-link :to="item.path">
             {{item.name}}
@@ -45,7 +46,7 @@
     <!-- 手机导航 -->
     <div class="header-nav-m container-fuild visible-xs">
       <div class="header-nav-m-logo">
-        <img class="center-block" src="@/assets/img/logo_black.png" alt="logo">
+        <img class="center-block" src="@/assets/img/LLLOGO.png" alt="logo">
       </div>
       <!-- 导航栏 -->
       <div class="header-nav-m-menu text-center">
@@ -153,7 +154,7 @@ export default {
 <style scoped>
 /* 顶部 */
 #header {
-  background: #f4f4f4;
+    background:linear-gradient(to left,rgb(26, 124, 1),#fff);
   transition: all ease 0.6s;
 }
 #header .header-top {
@@ -191,16 +192,6 @@ export default {
   bottom: 0;
   margin: auto;
 }
-/* .header-nav-logo img{
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-} */
 /* 导航栏 导航容器 */
 #header .header-nav-fixed .header-nav-wrapper {
   line-height: 50px;
@@ -244,7 +235,7 @@ export default {
 }
 /* 导航栏 每个导航下面的 a 链接 鼠标滑上去的样式 */
 #header .header-nav .header-nav-wrapper > li > a:hover {
-  color: #1e73be;
+  color: rgb(174,221,129);
   text-decoration: none;
 }
 /* 导航栏 每个导航下面的 a 链接 鼠标滑上去下划线的样式 */
@@ -259,9 +250,9 @@ export default {
 }
 /* 导航栏 每个导航下面的 a 链接 鼠标点击后的样式 */
 #header .header-nav .header-nav-wrapper > li.active > a {
-  color: #1e73be;
+  color: rgb(174,221,129);
   text-decoration: none;
-  border-bottom: 2px solid #1e73be;
+  border-bottom: 2px solid rgb(174,221,129);
 }
 /* 导航栏 每个导航下面的二级导航容器 */
 #header .header-nav .header-nav-wrapper > li > dl {

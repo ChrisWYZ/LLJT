@@ -353,7 +353,7 @@ export default {
 #contactUs {
   color: #fff;
   height: 400px;
-  background: url("../assets/img/kouhao.jpg") 0 0 no-repeat;
+  background: url("../assets/img/kouhao1.jpg") 0 0 no-repeat;
   background-size: 100% 100%;
   transition: all ease 0.6s;
 }
