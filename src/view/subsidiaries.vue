@@ -12,7 +12,10 @@
                     </div>
                 </ul>
                 <!-- 二维码 -->
-                <div id="sticky-erweima" class=""><img  src="@/assets/img/erweima.jpg" alt="微信二维码"></div>
+                <div id="sticky-erweima" v-if="isShow">
+                    <a href="#" class="close" id="cl" @click="showToggle()" data-dismiss="alert">&times;</a>
+                    <img  src="@/assets/img/erweima.jpg" alt="微信二维码">
+                </div>
                
             </div>
              
@@ -25,6 +28,7 @@ export default {
     name: 'subsidiaries',
     data(){
         return{
+            isShow:true,
             subsidiariesList: [
                 {
                     path: '/subsidiaries/bozhoulongli',
@@ -61,7 +65,9 @@ export default {
         })
     },
     methods:{
-        
+        showToggle() {
+	    	this.isShow = !this.isShow
+        }
     }
 }
 </script>
@@ -99,6 +105,11 @@ export default {
 }
 #right{
     padding: 50px 0;
+}
+#cl{
+    position: relative;
+    right: 30px;
+    top: 8px;
 }
 @media screen and (max-width: 768px){
     #right{
