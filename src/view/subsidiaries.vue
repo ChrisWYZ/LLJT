@@ -10,8 +10,9 @@
                     <div  class=" btn center-block btn-lg" v-for="(item,index) in subsidiariesList" :key="index">
                         <router-link :to=item.path>{{item.name}}</router-link>
                     </div>
-                </ul><!-- 二维码 -->
-                <div class="sticky-erweima"><img  src="@/assets/img/erweima.jpg" alt="微信二维码"></div>
+                </ul>
+                <!-- 二维码 -->
+                <div id="sticky-erweima" class=""><img  src="@/assets/img/erweima.jpg" alt="微信二维码"></div>
                
             </div>
              
@@ -44,7 +45,24 @@ export default {
     mounted() {
         var wow = new WOW();
         wow.init();
+        $(function(){
+            var a = $('#sticky-erweima'),
+            b=a.offset();
+            console.log(a);
+            console.log(b);
+            $(document).on('scroll',function(){
+                var c = $(document).scrollTop();
+                if(b.top<=c){
+                    a.css({'position':'fixed','top':'0px'})
+                    }else{
+                    a.css({'position':'absolute','top':'200px'})
+                }
+            })
+        })
     },
+    methods:{
+        
+    }
 }
 </script>
 <style scoped>
@@ -87,13 +105,11 @@ export default {
         padding: 15px;
     }
 }
-.sticky-erweima{
-    position: sticky;
-    top: 0px;
-    /* background: fuchsia; */
+#sticky-erweima{
+    margin-top: 20px;
     padding-left: 20px;
 }
-.sticky-erweima >img {
+#sticky-erweima >img {
     width: 320px;
     height: 350px;
 }
