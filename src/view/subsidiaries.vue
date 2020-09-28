@@ -2,8 +2,7 @@
     <div id="subsidiaries" class="container">
         <div class="row">
             <div id="right" class="col-md-8 col-xs-12">
-                <router-view></router-view>
-                
+                <router-view></router-view>  
             </div>
             <div id="left" class="col-md-4 col-xs-12  wow bounceInRight">
                 <ul class="left-container wow bounceInDowm">
@@ -11,8 +10,11 @@
                     <div  class=" btn center-block btn-lg" v-for="(item,index) in subsidiariesList" :key="index">
                         <router-link :to=item.path>{{item.name}}</router-link>
                     </div>
-                </ul>
+                </ul><!-- 二维码 -->
+                <div class="sticky-erweima"><img  src="@/assets/img/erweima.jpg" alt="微信二维码"></div>
+               
             </div>
+             
         </div>
     </div>
 </template>
@@ -84,6 +86,16 @@ export default {
     #right{
         padding: 15px;
     }
+}
+.sticky-erweima{
+    position: sticky;
+    top: 0px;
+    /* background: fuchsia; */
+    padding-left: 20px;
+}
+.sticky-erweima >img {
+    width: 320px;
+    height: 350px;
 }
 </style>
 

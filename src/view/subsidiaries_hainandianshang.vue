@@ -42,6 +42,7 @@
         <!-- <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div> -->
       </div>
+    
     </div>
     </div>
 </template>
@@ -64,32 +65,32 @@ export default {
                 }
             ],
             swiperList: [
-        {
-          img: require("@/assets/img/xinwen1.jpg"),
-          path: "",
-          title: '',
-          content: '',
-        },
-        {
-          img: require("@/assets/img/zhengshu1.jpg"),
-      
-          path: "",
-          title: '',
-          content: '',
-        },
-        {
-          img: require("@/assets/img/zhengshu2.jpg"),
-          path: "",
-          title: '',
-          content: '',
-        },
-        {
-          img: require("@/assets/img/zhengshu3.jpg"),
-          path: "",
-          title: '',
-          content: '',
-        }
-      ],
+                {
+                  img: require("@/assets/img/xinwen1.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                },
+                {
+                  img: require("@/assets/img/zhengshu1.jpg"),
+              
+                  path: "",
+                  title: '',
+                  content: '',
+                },
+                {
+                  img: require("@/assets/img/zhengshu2.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                },
+                {
+                  img: require("@/assets/img/zhengshu3.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                }
+              ],
 
         }
     },
@@ -126,7 +127,7 @@ mounted() {
     
     
 }
-    
+  
 }
 </script>
 <style scoped>
