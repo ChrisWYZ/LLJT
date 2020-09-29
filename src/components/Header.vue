@@ -258,7 +258,7 @@ export default {
 #header .header-nav .header-nav-wrapper > li > dl {
   display: none;
   position: absolute;
-  width: 168px;
+  width: 235px;
   top: 80%;
   left: 0;
   z-index: 999999;

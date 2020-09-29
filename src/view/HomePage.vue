@@ -28,7 +28,7 @@
     <div id="whyChooseUs" class="conatiner-fuild">
       <div class="container">
         <div class="whyChooseUs-title text-center">
-          <p>我们的服务</p>
+          <p><strong>我们的服务</strong></p>
           <p>THE REASON TO CHOOSING US</p>
         </div>
         <div class="row">
