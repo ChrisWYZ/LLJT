@@ -22,7 +22,40 @@
         <div class="swiper-button-next"></div>
       </div>
     </div>
-    <!-- 大数据管理系统 -->
+   
+   
+    <!-- 我们的服务 -->
+    <div id="whyChooseUs" class="conatiner-fuild">
+      <div class="container">
+        <div class="whyChooseUs-title text-center">
+          <p><strong>我们的服务</strong></p>
+          <p>THE REASON TO CHOOSING US</p>
+        </div>
+        <div class="row">
+          <div
+            class="col-xs-12 col-sm-6 col-md-4 server-wrapper"
+            v-for="(item,index) in serverList"
+            :key="index"
+          >
+            <div
+              class="server-block wow slideInUp"
+              onmouseenter="this.style.color='#28f';this.style.borderColor='#28f'"
+              onmouseleave="this.style.color='#666';this.style.borderColor='#ccc'"
+            >
+              <img class="center-block" :src="item.logo" alt="logo">
+              <p class="text-center">{{item.title}}</p>
+              <div
+                class="text-center"
+                v-html="item.content"
+                onmouseenter="this.style.color='#28f'"
+                onmouseleave="this.style.color='#ccc'"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 一站式服务 -->
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
@@ -39,24 +72,7 @@
           <router-link to="/servicedetail" class="btn btn-lg btn-block btn-info">了解详情</router-link>
         </div>
       </div>
-    </div>
-    <!-- 口号 -->
-    <div id="contactUs" class="container-fuild text-center">
-      <div class="container contactUs-container wow slideInUp">
-        <h1>诚实守信&nbsp;知行合一</h1>
-        <h3>用双手开拓进取，用能力创造未来。</h3>
-        <router-link to="/ContactUS"><button 
-          class="btn btn-default btn-sm"
-          onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
-          onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
-        >联系我们</button></router-link>
-        <div class="contactUs-contactWay">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div>
+    </div> 
     <!-- 合作伙伴 -->
     <div id="customer" class="container-fuild">
       <div class="container customer-container">
@@ -107,34 +123,20 @@
         </div>
       </div>
     </div>
-    <!-- 为什么选择我们 -->
-    <div id="whyChooseUs" class="conatiner-fuild">
-      <div class="container">
-        <div class="whyChooseUs-title text-center">
-          <p>为什么选择我们的服务</p>
-          <p>THE REASON TO CHOOSING US</p>
-        </div>
-        <div class="row">
-          <div
-            class="col-xs-12 col-sm-6 col-md-3 server-wrapper"
-            v-for="(item,index) in serverList"
-            :key="index"
-          >
-            <div
-              class="server-block wow slideInUp"
-              onmouseenter="this.style.color='#28f';this.style.borderColor='#28f'"
-              onmouseleave="this.style.color='#666';this.style.borderColor='#ccc'"
-            >
-              <img class="center-block" :src="item.logo" alt="logo">
-              <p class="text-center">{{item.title}}</p>
-              <div
-                class="text-center"
-                v-html="item.content"
-                onmouseenter="this.style.color='#28f'"
-                onmouseleave="this.style.color='#ccc'"
-              ></div>
-            </div>
-          </div>
+    <!-- 口号 -->
+    <div id="contactUs" class="container-fuild text-center">
+      <div class="container contactUs-container wow slideInUp">
+        <h1>诚实守信&nbsp;知行合一</h1>
+        <h3>用双手开拓进取，用能力创造未来。</h3>
+        <router-link to="/ContactUS"><button 
+          class="btn btn-default btn-sm"
+          onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
+          onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
+        >联系我们</button></router-link>
+        <div class="contactUs-contactWay">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </div>
@@ -202,25 +204,20 @@ export default {
       ],
       serverList: [
         {
-          logo: require("@/assets/img/tel.png"),
-          title: "核心优势1",
-          content: "<p>选择我们一劳永逸</p>省钱|省时|省心|省事"
+          logo: require("@/assets/img/a1.png"),
+          title: "互联网+再生资源",
+          content: "<p>再生纸浆、纸制品进出口贸易</p>国内废纸贸易；其他再生资源服务。"
         },
         {
-          logo: require("@/assets/img/computer.png"),
-          title: "核心优势2",
-          content: "<p>专业代办进出口资质</p>极速拿证！"
+          logo: require("@/assets/img/a2.png"),
+          title: "互联网+国际贸易",
+          content: "<p>帮助广大的贸易上下游产业链企业和用户快速实现</p>电商，提供专业的产品平行和垂直购买渠道。"
         },
         {
-          logo: require("@/assets/img/qq.png"),
-          title: "核心优势3",
-          content: "<p>专业高效报关服务</p>快速完成货物清关"
+          logo: require("@/assets/img/a3.png"),
+          title: "互联网+财税服务",
+          content: "<p>提供工商注册、记账报税（涉税代理服务）</p>代办进出口资质、报关清关一站式服务。"
         },
-        {
-          logo: require("@/assets/img/skill.png"),
-          title: "核心优势4",
-          content: "<p>免费提供专业工商注册</p>服务有保障，注册更快速！"
-        }
       ]
     };
   },
@@ -331,7 +328,7 @@ export default {
   margin-top: 1%;
   font-weight: 700;
 }
-/* 大数据管理系统 */
+/* 一站式服务 */
 #bigData {
   padding: 100px;
   transition: all ease 0.6s;
@@ -350,7 +347,7 @@ export default {
   margin: 50px 0 20px;
 }
 
-/* 您身边的IT专家 */
+/* 口号 */
 #contactUs {
   color: #fff;
   height: 400px;
@@ -386,11 +383,11 @@ export default {
   background-size: 100% 100%;
 }
 #contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(2) {
-  background: url("../assets/img/weibo.png") 0 0 no-repeat;
+  background: url("../assets/img/weibo2.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
 #contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(3) {
-  background: url("../assets/img/twitter.png") 0 0 no-repeat;
+  background: url("../assets/img/qq2.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
 
@@ -426,7 +423,7 @@ export default {
 #customer .customer-content2 {
   padding-top: 20px;
 }
-/* 为什么选择我们 */
+/* 我们的服务 */
 #whyChooseUs {
   padding: 100px;
 }
@@ -446,8 +443,8 @@ export default {
   border-bottom: 5px solid #ccc;
 }
 #whyChooseUs .server-block img {
-  width: 48px;
-  height: 48px;
+  width: 180px;
+  height: 180px;
 }
 #whyChooseUs .server-block > p {
   font-size: 20px;
