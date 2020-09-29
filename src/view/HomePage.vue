@@ -383,11 +383,11 @@ export default {
   background-size: 100% 100%;
 }
 #contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(2) {
-  background: url("../assets/img/weibo.png") 0 0 no-repeat;
+  background: url("../assets/img/weibo2.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
 #contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(3) {
-  background: url("../assets/img/twitter.png") 0 0 no-repeat;
+  background: url("../assets/img/qq2.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
 
