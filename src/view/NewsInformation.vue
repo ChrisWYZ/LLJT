@@ -64,50 +64,50 @@ export default {
             newsList:[
                 {
                     id: '001',
-                    title: '世界上第一个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    logo: require("@/assets/img/xinwen1.jpg"),
-                    date: '05-20',
-                    year: '2019',
+                    title: '2020中国品牌博鳌峰会',
+                    introduce: '非常荣幸我们公司荣获“中国行业十大影响力品牌”奖、“中国自主品牌500强”奖;公司宋军董事长获选“中国新时代十大品牌人物”。',
+                    logo: require("@/assets/img/boaofenghui1.jpg"),
+                    date: '09-27',
+                    year: '2020',
 
                 
                     
                 },{
                     id: '002',
-                    title: '世界上第二个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
+                    title: '海南自贸区龙利电子商务',
+                    introduce: '致力打造互联网+再生资源、互联网+国际贸易、互联网+财税服务的跨境电商平台! ',
                     logo: require("@/assets/img/xinwen2.jpg"),
-                    date: '05-24',
-                    year: '2019'
+                    date: '09-12',
+                    year: '2020'
                  
                 },{
                     id: '003',
-                    title: '世界上第三个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    logo: require("@/assets/img/logo_dzf.jpg"),
-                    date: '05-24',
-                    year: '2019'
+                    title: '集体是办公公租赁',
+                    introduce: '立足海南自贸港、知政策、享优惠、寻商机。',
+                    logo: require("@/assets/img/zhaozu1.jpg"),
+                    date: '09-25',
+                    year: '2020'
                 },{
                     id: '004',
-                    title: '世界上第四个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    logo: require("@/assets/img/logo_dzf.jpg"),
-                    date: '05-24',
-                    year: '2018'
+                    title: '一站式服务',
+                    introduce: '提供工商注册、记账报税（涉税代理服务）、代办进出口资质、报关清关一站式服务',
+                    logo: require("@/assets/img/yzsff.jpg"),
+                    date: '09-17',
+                    year: '2020'
                 },{
                     id: '005',
-                    title: '世界上第五个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
-                    logo: require("@/assets/img/logo_dzf.jpg"),
-                    date: '05-24',
-                    year: '2019'
+                    title: '海南龙利跨境电商集团有限公司',
+                    introduce: '集团公司主营业务为互联网批发：互联网+再生资源、互联网+财税服务、互联网+国际贸易',
+                    logo: require("@/assets/img/hainanll3.jpg"),
+                    date: '09-16',
+                    year: '2020'
                 },{
                     id: '006',
-                    title: '世界上第六个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
-                    logo: require("@/assets/img/xinwen1.jpg"),
-                    date: '05-24',
-                    year: '2019'
+                    title: '战略合作',
+                    introduce: '海南自贸区龙利电子商务有限责任公司与北京中税税务咨询股份有限公司正式签约战略合作协议',
+                    logo: require("@/assets/img/zhanlve1.jpg"),
+                    date: '08-14',
+                    year: '2020'
                 }
                 
             ],
