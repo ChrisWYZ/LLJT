@@ -104,7 +104,7 @@ export default {
   font-size: 30px;
   height: 150px;
   line-height: 150px;
-  background-image: url("../assets/img/banner_1.jpg");
+  background-image: url("../assets/img/lianxiwomen2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
