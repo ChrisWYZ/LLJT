@@ -6,6 +6,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">
             亳州龙利再生资源回收有限公司
+            <br>
             <form class="form-horizontal" role="form">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">地址</label>
@@ -33,6 +34,7 @@
               </div>
             </form>
             海南自贸区龙利电子商务有限公司
+            <br>
             <form class="form-horizontal" role="form">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">地址</label>

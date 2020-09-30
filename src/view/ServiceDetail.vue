@@ -3,10 +3,10 @@
     <div class="banner container-fuild text-center">相关服务</div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-3" id="myScrollspy">
-          <ul class="nav nav-tabs nav-stacked center-block" id="myNav">
+        <div class="col-xs-12 col-sm-12 col-md-12 " id="myScrollspy">
+          <ul class="nav nav-pills center-block row " id="myNav">
             <p>特色服务</p>
-            <li
+            <li class="col-xs-12 col-sm-12 col-md-2"
               :class="item.id==id?'active':''"
               v-for="(item,index) in serviceNavList"
               :key="index"
@@ -15,7 +15,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-9 content  wow zoomIn">
+        <div class="col-xs-12 col-sm-12 col-md-12 content  wow zoomIn">
           <div class="content-block" v-for="(item,index) in serviceContentList" :key="index">
             <h2 :id="item.id">
               {{item.title}}
@@ -133,21 +133,24 @@ export default {
   background-attachment: scroll;
   background-position: center center;
 }
-ul.nav-tabs {
-  width: 200px;
-  margin-top: 40px;
+.nav {
+  padding: 10px;
+}
+ul.nav-pills {
+  width: 100%;
+  margin-top: 20px;
   border-radius: 4px;
   background: #fff;
   z-index: 99999;
-  border: 1px solid #474747;
+  border: 0px solid #474747;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
 }
-ul.nav-tabs li {
+ul.nav-pills li {
   text-align: center;
   margin: 0;
   border-top: 1px solid #474747;
 }
-ul.nav-tabs p {
+ul.nav-pills p {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -156,28 +159,27 @@ ul.nav-tabs p {
   margin: 0;
   padding: 10px 0;
 }
-ul.nav-tabs li:first-child {
-  border-top: none;
-}
-ul.nav-tabs li a {
+ul.nav-pills li a {
   margin: 0;
-  padding: 8px 16px;
-  border-radius: 0;
+  border-radius: 4px;
 }
-ul.nav-tabs li.active a,
-ul.nav-tabs li.active a:hover {
+ul.nav-pills li.active a,
+ul.nav-pills li.active a:hover {
   color: #fff;
   background: #474747;
   border: 1px solid #474747;
 }
-ul.nav-tabs li:first-child a {
+ul.nav-pills li:first-child a {
   border-radius: 4px 4px 0 0;
 }
-ul.nav-tabs li:last-child a {
+ul.nav-pills li:last-child a {
   border-radius: 0 0 4px 4px;
 }
-ul.nav-tabs.affix {
-  top: 30px;
+ul.nav-pills.affix {
+  top: 3px;
+  left: 0;
+  right: 0;
+  /* position: static; */
 }
 .content-block {
   margin: 50px 0;
