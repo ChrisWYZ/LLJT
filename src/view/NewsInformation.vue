@@ -96,10 +96,10 @@ export default {
                     year: '2020'
                 },{
                     id: '005',
-                    title: '海南龙利跨境电商集团有限公司',
-                    introduce: '集团公司主营业务为互联网批发：互联网+再生资源、互联网+财税服务、互联网+国际贸易',
-                    logo: require("@/assets/img/hainanll3.jpg"),
-                    date: '09-16',
+                    title: '赴海口调研会员再生纸浆进口业务开展及两网融合工作推进情况',
+                    introduce: '2020年11月第五届中国回收纸行业大会将在海口举办',
+                    logo: require("@/assets/img/xinwen0051.jpg"),
+                    date: '09-25',
                     year: '2020'
                 },{
                     id: '006',
