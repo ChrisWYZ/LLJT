@@ -166,7 +166,7 @@ export default {
 }
 /* 顶部的图标 */
 #header .header-top span {
-  margin: 0 8px;
+  margin: 0 8px ;
 }
 /* 导航栏 */
 #header .header-nav {
