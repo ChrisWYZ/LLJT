@@ -104,7 +104,15 @@ export default {
             {
               name: "海南自贸区电子商务责任有限公司",
               path: "/subsidiaries/hainandianshang"
-            }
+            },
+            {
+              name: "亳州龙翔木业",
+              path: "/subsidiaries/longxiang"
+            },
+             {
+              name: "海南隆利源国际贸易有限公司",
+              path: "/subsidiaries/hainanlongliyuan"
+            },
           ]
         },
         {
@@ -166,7 +174,7 @@ export default {
 }
 /* 顶部的图标 */
 #header .header-top span {
-  margin: 0 8px;
+  margin: 0 8px ;
 }
 /* 导航栏 */
 #header .header-nav {
