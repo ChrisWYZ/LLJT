@@ -66,7 +66,7 @@ export default {
                     id: '001',
                     title: '2020中国品牌博鳌峰会',
                     introduce: '非常荣幸我们公司荣获“中国行业十大影响力品牌”奖、“中国自主品牌500强”奖;公司宋军董事长获选“中国新时代十大品牌人物”。',
-                    logo: require("@/assets/img/boaofenghui1.jpg"),
+                    logo: require("@/assets/img/boao01.jpg"),
                     date: '09-27',
                     year: '2020',
 
@@ -82,31 +82,31 @@ export default {
                  
                 },{
                     id: '003',
-                    title: '集体是办公公租赁',
-                    introduce: '立足海南自贸港、知政策、享优惠、寻商机。',
-                    logo: require("@/assets/img/zhaozu1.jpg"),
-                    date: '09-25',
-                    year: '2020'
-                },{
-                    id: '004',
-                    title: '一站式服务',
-                    introduce: '提供工商注册、记账报税（涉税代理服务）、代办进出口资质、报关清关一站式服务',
-                    logo: require("@/assets/img/yzsff.jpg"),
-                    date: '09-17',
-                    year: '2020'
-                },{
-                    id: '005',
                     title: '赴海口调研会员再生纸浆进口业务开展及两网融合工作推进情况',
                     introduce: '2020年11月第五届中国回收纸行业大会将在海口举办',
                     logo: require("@/assets/img/xinwen0051.jpg"),
                     date: '09-25',
                     year: '2020'
                 },{
-                    id: '006',
+                    id: '004',
+                    title: '海南将成为奢侈品购物消费新天堂',
+                    introduce: '离岛免税购物火爆，吸引境外消费回流效果明显，化妆品、香水、首饰、手表等免税商品成为抢手货。',
+                    logo: require("@/assets/img/hangye5.jpg"),
+                    date: '08-17',
+                    year: '2020'
+                },{
+                    id: '005',
                     title: '战略合作',
                     introduce: '海南自贸区龙利电子商务有限责任公司与北京中税税务咨询股份有限公司正式签约战略合作协议',
                     logo: require("@/assets/img/zhanlve1.jpg"),
                     date: '08-14',
+                    year: '2020'
+                },{
+                    id: '006',
+                    title: '海南自由贸易港',
+                    introduce: '海南自由贸易港的建设发展趋势',
+                    logo: require("@/assets/img/hangye1.jpg"),
+                    date: '06-01',
                     year: '2020'
                 }
                 

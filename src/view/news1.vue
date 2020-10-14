@@ -2,7 +2,6 @@
   <div id="News">    
     <div class="title text-center">
       <h4> 热烈庆祝龙利集团在2020年第四届中国品牌博鳌峰会斩获殊荣
-        <!-- <small>/News headlines</small> -->
       </h4>
     </div> 
     <div class="container">
