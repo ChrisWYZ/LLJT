@@ -74,9 +74,9 @@ export default {
                     
                 },{
                     id: '002',
-                    title: '海南自贸区龙利电子商务',
-                    introduce: '致力打造互联网+再生资源、互联网+国际贸易、互联网+财税服务的跨境电商平台! ',
-                    logo: require("@/assets/img/xinwen2.jpg"),
+                    title: '立足海南自贸港、知政策、享优惠、寻商机',
+                    introduce: '海南是我国最大的经济特区，具有实施全面深化改革和试验最高水平开放政策的独特优势。',
+                    logo: require("@/assets/img/hangye12.jpg"),
                     date: '09-12',
                     year: '2020'
                  
