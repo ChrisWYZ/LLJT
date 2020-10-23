@@ -50,22 +50,22 @@ export default new Router({
                 title: '海南贸易网'
               }
             },
-            {
-              path: '/subsidiaries/longxiang',
-              name: 'subsidiaries',
-              component: resolve => require(['@/view/subsidiaries_longxiang'], resolve),
-              meta: {
-                title: '亳州龙翔'
-              }
-            },
-            {
-              path: '/subsidiaries/hainanlongliyuan',
-              name: 'subsidiaries',
-              component: resolve => require(['@/view/subsidiaries_hainanlongliyuan'], resolve),
-              meta: {
-                title: '海南龙利源'
-              },
-            }
+            // {
+            //   path: '/subsidiaries/longxiang',
+            //   name: 'subsidiaries',
+            //   component: resolve => require(['@/view/subsidiaries_longxiang'], resolve),
+            //   meta: {
+            //     title: '亳州龙翔'
+            //   }
+            // },
+            // {
+            //   path: '/subsidiaries/hainanlongliyuan',
+            //   name: 'subsidiaries',
+            //   component: resolve => require(['@/view/subsidiaries_hainanlongliyuan'], resolve),
+            //   meta: {
+            //     title: '海南龙利源'
+            //   },
+            // }
           ]
         }, {
           path: '/service',

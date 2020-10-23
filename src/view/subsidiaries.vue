@@ -36,13 +36,13 @@ export default {
                 },{
                     path: '/subsidiaries/hainandianshang',
                     name: '海南自贸区电子商务责任有限公司'
-                },{
-                    path: '/subsidiaries/longxiang',
-                    name: '亳州龙翔木业'
-                },{
-                    path: '/subsidiaries/hainanlongliyuan',
-                    name: '海南隆利源责任有限公司'
-                }
+                 }
+                //     path: '/subsidiaries/longxiang',
+                //     name: '亳州龙翔木业'
+                // },{
+                //     path: '/subsidiaries/hainanlongliyuan',
+                //     name: '海南隆利源责任有限公司'
+                // }
             ]
         }
     },
