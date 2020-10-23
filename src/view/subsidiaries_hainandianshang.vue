@@ -63,38 +63,50 @@ export default {
                     img: require("@/assets/img/dianshang01.jpg")
                 },
                 {
-                    img: require("@/assets/img/bozhoulongli2.jpg")
+                    img: require("@/assets/img/hainanll5.jpg")
                 },
                 {
-                    img: require("@/assets/img/bozhoulongli3.jpg")
+                    img: require("@/assets/img/hainanll6.jpg")
                 }
             ],
             swiperList: [
                 {
-                  img: require("@/assets/img/xinwen1.jpg"),
+                  img: require("@/assets/img/zhengshu7.jpg"),
                   path: "",
                   title: '',
                   content: '',
                 },
                 {
-                  img: require("@/assets/img/zhengshu1.jpg"),
+                  img: require("@/assets/img/zhengshu9.jpg"),
               
                   path: "",
                   title: '',
                   content: '',
                 },
                 {
-                  img: require("@/assets/img/zhengshu2.jpg"),
+                  img: require("@/assets/img/zhengshu8.jpg"),
                   path: "",
                   title: '',
                   content: '',
                 },
                 {
-                  img: require("@/assets/img/zhengshu3.jpg"),
+                  img: require("@/assets/img/zhengshu10.jpg"),
                   path: "",
                   title: '',
                   content: '',
-                }
+                },
+                {
+                  img: require("@/assets/img/zhengshu11.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                },
+                {
+                  img: require("@/assets/img/zhengshu12.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                },
               ],
 
         }

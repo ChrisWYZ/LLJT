@@ -108,7 +108,7 @@ export default {
             ],
             swiperList: [
                 {
-                  img: require("@/assets/img/xinwen1.jpg"),
+                  img: require("@/assets/img/zhengshu4.jpg"),
                   path: "",
                   title: '',
                   content: '',
@@ -121,17 +121,41 @@ export default {
                   content: '',
                 },
                 {
+                  img: require("@/assets/img/zhengshu1.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                },
+                {
                   img: require("@/assets/img/zhengshu2.jpg"),
                   path: "",
                   title: '',
                   content: '',
                 },
                 {
-                  img: require("@/assets/img/zhengshu3.jpg"),
+                  img: require("@/assets/img/zhengshu12.jpg"),
                   path: "",
                   title: '',
                   content: '',
-                }
+                },
+                {
+                  img: require("@/assets/img/zhengshu4.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                },
+                {
+                  img: require("@/assets/img/zhengshu5.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                },
+                {
+                  img: require("@/assets/img/zhengshu11.jpg"),
+                  path: "",
+                  title: '',
+                  content: '',
+                },
               ],
         }
     },
