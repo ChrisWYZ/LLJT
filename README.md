@@ -1,27 +1,27 @@
 <<<<<<< HEAD
 # LLJT
-技术栈：“bootstrap、vue全家桶”
+技术栈：“bootstrap、vue-router、vuex、ajax、swiper”
 =======
-# official-website
+
 
 > 响应式企业官方网站模板，使用vue全家桶开发
 
 ## 技术要点
 
-``` bash
-# bootstarp——整体框架，主要用到了栅格系统和一些组件
+````````````````````bash
+# bootstarp
 
-# swiper——轮播插件
+# swiper
 
-# wow.js+animate.css——网站的整体动画插件
+# wow.js+animate.css
 
-# axios——ajax请求
+# axios——ajax
 
-# vue-router——路由
+# vue-router
 
 # vuex——状态管理（项目没有用到）
 
-# session storage——本地存储
+# session storage
 
 # 对可复用的组件进行了封装，对api接口进行了封装
 ```
