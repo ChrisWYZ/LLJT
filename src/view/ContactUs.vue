@@ -5,13 +5,13 @@
       <div class="container-fuild ContactUs-container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">
-            亳州龙利再生资源回收有限公司
+            海南自贸区龙利电子商务有限公司 
             <br>
             <form class="form-horizontal" role="form">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">地址</label>
                 <div class="col-sm-10 col-xs-12">
-                  安徽省亳州市谯城区张良路东侧白芍路北侧（亳州龙利再生资源回收有限公司）
+                  海南省海口市龙华区南海大道海垦路九九华府119号（海南自贸区龙利电子商务有限公司）
                 </div>
               </div>
               <div class="form-group">
@@ -33,13 +33,13 @@
                 </div>
               </div>
             </form>
-            海南自贸区龙利电子商务有限公司
+           亳州龙利再生资源回收有限公司
             <br>
             <form class="form-horizontal" role="form">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">地址</label>
                 <div class="col-sm-10 col-xs-12">
-                  海南省海口市龙华区南海大道海垦路九九华府119号（海南自贸区龙利电子商务有限公司）
+                  安徽省亳州市谯城区张良路东侧白芍路北侧（亳州龙利再生资源回收有限公司）
                 </div>
               </div>
               <div class="form-group">

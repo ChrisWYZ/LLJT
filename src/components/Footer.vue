@@ -6,12 +6,12 @@
     <p class="title">龙利集团有限公司官方网站</p>
     <p class="address_tel_fax">
       <span>地址：海南省海口市龙华区海垦路九九华府旁</span>
-      <span>Tel：888-888-888</span>
-      <span>Fax：8888-88888888</span>
+      <span>Tel：089866828131</span>
+      <!-- <span>Fax：8888-88888888</span> -->
     </p>
     <p class="email_wx">
-      <span>邮箱：1048635731@qq.com/15808930230@163.com</span>
-      <span>公司微信号：ilyk_gg</span>
+      <span>邮箱：2419272698@qq.com</span>
+      <span>公司微信号：Cuiyuan13368969378</span>
     </p>
     <p class="copy">Copyright &copy; 2020 龙利集团</p>
   </div>

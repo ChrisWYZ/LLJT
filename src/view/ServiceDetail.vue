@@ -130,7 +130,7 @@ export default {
   background-image: url("../assets/img/banner_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
 }
 .nav {

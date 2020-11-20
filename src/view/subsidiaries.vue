@@ -12,10 +12,10 @@
                     </div>
                 </ul>
                 <!-- 二维码 -->
-                <div id="sticky-erweima" v-if="isShow">
+                 <div id="sticky-erweima" v-if="isShow">
                     <a href="#" class="close" id="cl" @click="showToggle()" data-dismiss="alert">&times;</a>
-                    <img  src="@/assets/img/erweima.jpg" alt="微信二维码">
-                </div>
+                    <img  src="@/assets/img/maoyuerma.jpg" alt="微信二维码">
+                </div> 
                
             </div>
              
@@ -31,11 +31,13 @@ export default {
             isShow:true,
             subsidiariesList: [
                 {
+                     path: '/subsidiaries/hainandianshang',
+                    name: '海南自贸区电子商务责任有限公司'
+                    
+                   // img: require("@/assets/img/maoyuerma.jpg"),
+                },{
                     path: '/subsidiaries/bozhoulongli',
                     name: '亳州回收资源有限责任公司'
-                },{
-                    path: '/subsidiaries/hainandianshang',
-                    name: '海南自贸区电子商务责任有限公司'
                  }
                 //     path: '/subsidiaries/longxiang',
                 //     name: '亳州龙翔木业'
@@ -49,7 +51,7 @@ export default {
     mounted() {
         var wow = new WOW();
         wow.init();
-        $(function(){
+       /* $(function(){
             var a = $('#sticky-erweima'),
             b=a.offset();
             console.log(a);
@@ -62,7 +64,7 @@ export default {
                     a.css({'position':'absolute','top':'200px'})
                 }
             })
-        })
+        }) */
     },
     methods:{
         showToggle() {
@@ -119,7 +121,9 @@ export default {
 #sticky-erweima{
     margin-top: 20px;
     padding-left: 20px;
+    width: 380px;
 }
+
 #sticky-erweima >img {
     width: 320px;
     height: 350px;

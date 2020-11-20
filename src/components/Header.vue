@@ -5,8 +5,8 @@
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
-          <span class="glyphicon glyphicon-earphone"></span>888-888-888
-          <span class="glyphicon glyphicon-envelope"></span>45612183216845@163.com
+          <span class="glyphicon glyphicon-earphone"></span>089866828131
+          <span class="glyphicon glyphicon-envelope"></span>2419272698@qq.com
           <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
         </div>
         <div class="shejiao pull-right">
@@ -98,12 +98,13 @@ export default {
           path: "/subsidiaries",
           children: [
             {
-              name: "亳州回收资源有限责任公司",
-              path: "/subsidiaries/bozhoulongli"
-            },
-            {
               name: "海南自贸区电子商务责任有限公司",
               path: "/subsidiaries/hainandianshang"
+              
+            },
+            {
+              name: "亳州回收资源有限责任公司",
+              path: "/subsidiaries/bozhoulongli"
             },
             // {
             //   name: "亳州龙翔木业",
@@ -162,7 +163,7 @@ export default {
 <style scoped>
 /* 顶部 */
 #header {
-    background:linear-gradient(to left,rgb(26, 124, 1),#fff);
+    background:linear-gradient(to left,rgb(255, 255, 255),#fff);
   transition: all ease 0.6s;
 }
 #header .header-top {
@@ -170,8 +171,15 @@ export default {
   color: #fff;
   font-size: 12px;
   line-height: 50px;
-  background: #474747;
+   background: #000000;
 }
+/*#header .header-top .container{
+  height: 50px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 50px;
+  background: #474747;
+}*/
 /* 顶部的图标 */
 #header .header-top span {
   margin: 0 8px ;
@@ -179,6 +187,7 @@ export default {
 /* 导航栏 */
 #header .header-nav {
   height: 110px;
+  
 }
 
 /* 导航栏logo */
@@ -203,6 +212,7 @@ export default {
 /* 导航栏 导航容器 */
 #header .header-nav-fixed .header-nav-wrapper {
   line-height: 50px;
+
 }
 #header .header-nav .header-nav-wrapper {
   line-height: 110px;
@@ -223,6 +233,7 @@ export default {
   font-weight: bold;
   padding: 15px 0;
   position: relative;
+  
 }
 /* 导航栏 每个导航下面的 a 链接的下划线 */
 #header .header-nav .header-nav-wrapper > li > a > i {
@@ -294,6 +305,7 @@ export default {
 @media screen and (max-width: 997px) {
   #header .header-nav-m {
     position: relative;
+    
   }
   /* 导航栏logo容器 */
   #header .header-nav-m .header-nav-m-logo {

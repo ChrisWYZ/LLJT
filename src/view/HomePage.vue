@@ -151,7 +151,7 @@ export default {
     return {
       swiperList: [
         {
-          img: require("@/assets/img/banner5.jpg"),
+          img: require("@/assets/img/lunboxiu1.jpg"),
           path: "",
           title: '',
           content: '',
@@ -163,13 +163,13 @@ export default {
           content: '',
         },
         {
-          img: require("@/assets/img/banner7.jpg"),
+          img: require("@/assets/img/lunboxiu2.jpg"),
           path: "",
           title: '',
           content: '',
         },
         {
-          img: require("@/assets/img/banner8.jpg"),
+          img: require("@/assets/img/lunboxiu3.jpg"),
           path: "",
           title: '',
           content: '',

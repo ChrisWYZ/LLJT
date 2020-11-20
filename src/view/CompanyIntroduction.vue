@@ -104,12 +104,14 @@ export default {
     padding: 100px 0;
     color: #808080;
     transition: all ease 0.5s;
-}
-.CompanyIntroduction-container>div>p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2.5rem;
 }
-
+/*.CompanyIntroduction-container>div>p{
+    font-size: 16px;
+    line-height: 2.5rem;
+}
+*/
 @media screen and (max-width: 997px){
     .CompanyIntroduction-container{
     padding: 10px 0;
