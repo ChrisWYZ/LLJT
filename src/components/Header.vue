@@ -5,7 +5,7 @@
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
-          <span class="glyphicon glyphicon-earphone"></span>089866828131
+          <span class="glyphicon glyphicon-earphone"></span>0898-66828131
           <span class="glyphicon glyphicon-envelope"></span>2419272698@qq.com
           <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
         </div>
@@ -106,10 +106,10 @@ export default {
               name: "亳州回收资源有限责任公司",
               path: "/subsidiaries/bozhoulongli"
             },
-            // {
-            //   name: "亳州龙翔木业",
-            //   path: "/subsidiaries/longxiang"
-            // },
+             {
+               name: "芜湖分公司",
+               path: "/subsidiaries/wuhu"
+            }
             //  {
             //   name: "海南隆利源国际贸易有限公司",
             //   path: "/subsidiaries/hainanlongliyuan"

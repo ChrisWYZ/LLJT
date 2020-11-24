@@ -36,6 +36,7 @@ export default {
                     title: '工商注册',
                     eng_title: 'business circles register',
                     img: require('@/assets/img/service1.jpg')
+                    
                 },{
                     id: 'section-2',
                     title: '公司办公',

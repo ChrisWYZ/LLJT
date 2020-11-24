@@ -38,10 +38,11 @@ export default {
                 },{
                     path: '/subsidiaries/bozhoulongli',
                     name: '亳州回收资源有限责任公司'
+                 },{
+                     path: '/subsidiaries/wuhu',
+                     name: '芜湖分公司'
                  }
-                //     path: '/subsidiaries/longxiang',
-                //     name: '亳州龙翔木业'
-                // },{
+                 //{
                 //     path: '/subsidiaries/hainanlongliyuan',
                 //     name: '海南隆利源责任有限公司'
                 // }

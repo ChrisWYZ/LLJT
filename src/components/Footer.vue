@@ -3,10 +3,10 @@
     <div class="logo">
       <img src="@/assets/img/logo_white.png" alt="logo图">
     </div>
-    <p class="title">龙利集团有限公司官方网站</p>
+    <p class="title">海南跨境电商集团有限公司官方网站</p>
     <p class="address_tel_fax">
       <span>地址：海南省海口市龙华区海垦路九九华府旁</span>
-      <span>Tel：089866828131</span>
+      <span>Tel：0898-66828131</span>
       <!-- <span>Fax：8888-88888888</span> -->
     </p>
     <p class="email_wx">

@@ -95,7 +95,7 @@
               <div class="customer-yh">
                 <img src="@/assets/img/yinhao.png" alt="引号">
               </div>
-              <div class="customer-content1">
+              <div class="customer-content1 wow">
                 <small>&emsp;&emsp;{{item.content}}</small>
               </div>
               <div class="customer-content2">{{item.title}}</div>
@@ -107,7 +107,7 @@
         </div>
         <div class="row visible-xs customer-block">
           <div class="col-xs-12" v-for="(item,index) in customerList" :key="index">
-            <div class="customer-logo">
+            <div class="customer-logo"> 
               
             </div>
             <div class="customer-yh">
@@ -177,24 +177,33 @@ export default {
       ],
       customerList: [
         {
-          logo: require("@/assets/img/logo_dzf.jpg"),
-          url:"https://www.dazhangfang.com/",
-          title:
-            "北京大帐房信息技术有限公司",
-          content:
-             "北京大账房信息技术有限公司是以财税SAAS细分服务为主营业务的有限公司。是一家由财税专家，软件、互联网精英发起的国家高新技术企业，致力于打造中国第一流互联网+记账平台，为“大众创业、万众创新”打造服务支持系统，拥有100多项核心软件著作与技术专利，为千万企业提供线上线下财税解决方案，在全国34省拥有500多个服务机构，12000多人服务团队，服务网点覆盖全国400多个城市，已经完成融资4亿元。大账房致力于以科技为驱动，打造票、财、税、人资、社保、金融一站式生态服务平台，服务全国万千企业。"
-        },
-        {
           logo: require("@/assets/img/logo_zs.jpg"),
-          url:"http://www.zstax.com/#/",
+          url:"#",
           title:
             "北京中税税务咨询股份有限公司",
           content:
-            "1997年北京中税税务师事务所成立，2018年改名为北京中税税务咨询股份有限公司， 并先后成立了服务不同行业的四家科技公司，控股覆盖全国主要城市的咨询服务代理机构， 形成一家全国性大型综合的税务服务集团。中税始终秉承诚信、高效、专业和创新的服务理念，在坚守中创新，伴随中国税收征管“互联网 + 税务”的变革，中税通过云端构建“信息化 + 咨询”的“数字中税”服务新模式，以标准的信息化产品和专业的咨询服务产品，更广泛的为客户提供更高水平的涉税服务，为企业的经济活动保驾护航。"
+             "1997年北京中税税务师事务所成立，2018年改名为北京中税税务咨询股份有限公司， 并先后成立了服务不同行业的四家科技公司，"+
+             "控股覆盖全国主要城市的咨询服务代理机构， 形成一家全国性大型综合的税务服务集团。中税始终秉承诚信、高效、专业和创新的服务理念，"+
+             "在坚守中创新，伴随中国税收征管“互联网 + 税务”的变革，中税通过云端构建“信息化 + 咨询”的“数字中税”服务新模式，"+
+             "以标准的信息化产品和专业的咨询服务产品，更广泛的为客户提供更高水平的涉税服务，为企业的经济活动保驾护航。"
+        },
+        {
+          logo: require("@/assets/img/mingxingqiye.jpg"),
+          url:"#",
+          title:
+            "江门市明星纸业有限公司",
+          content:
+            "江门市明星纸业有限公司成立于1997年11月，是由新会市睦洲糖纸厂与台湾中桥国际股份有限公司共同投资创办中外合资企业。"+
+            "地处珠江三角洲南部的睦洲镇,比邻江门、中山、珠海三市交界，紧靠西江主航道,公司占地面积16万平方米，自有发电厂和污水处理厂，"+
+            "拥有各类专业技术人员100多人,拥有5条造纸生产线及国内先进的造纸设备和先进环保设备，还有800米长河岸线可停泊2000多吨级的起卸码头。"+
+            "在发展经济过程中，江门市明星纸业有限公司一直乘承\“绿色产业、环保先行\”的经营理念，引进国内的先进环保设备和技术，"+
+            "努力减少企业生产对环境造成的影响，让各项环保和能耗指标做到优于国家标准，同时江门市明星纸业有限公司在发展企业生产的同时也履行社会责任,积极回馈社会。"
+           
+          
         },
         {
           logo: require("@/assets/img/logo_zy.png"),
-          url:"javascript:void(0)",
+          url:"#",
           title:
             "正业国际控股有限公司",
           content:
@@ -417,12 +426,16 @@ export default {
   height: 34px;
 }
 #customer .customer-content1 {
+ 
   padding-bottom: 20px;
   border-bottom: 1px solid #0ce9f1;
 }
 #customer .customer-content2 {
   padding-top: 20px;
+ 
 }
+
+
 /* 我们的服务 */
 #whyChooseUs {
   padding: 100px;
@@ -584,6 +597,10 @@ export default {
   }
   #whyChooseUs {
     padding: 20px 0;
+  }
+  .col-xs-12{
+    width:180px;
+    height: 453px;
   }
 }
 </style>

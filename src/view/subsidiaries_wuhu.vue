@@ -1,15 +1,18 @@
 <template>
     <div id="subsidiaries">
-        <div class="F1"> <img class="damen" src="@/assets/img/hainanll1.jpg"  width="250px" height="250px" align="left" alt="海南龙利电商" />
-       <p class="wenben">&emsp;&emsp;<strong>海南自贸区龙利电子商务责任有限公司</strong>
-       成立于2019年，注册在海南省澄迈县老城镇高新技术产业示范区海南生态软件园，实际办公地点位于海口市海垦路119号，
-       为海南龙利跨境电商集团有限公司的控股母公司，公司主营业务为进出口再生纸浆、纸制品、国内废纸贸易及其他再生资源业务。
-      2020年公司运营的海南贸易网，致力打造成为海内外再生资源进出口贸易信息化窗口，为再生资源产业链提供供求的线上交易服务，
-      成为国际、国内领先的再生资源行业电子商务平台。
-      与此同时，办公面积近2000平米，可提供办公租赁业务。我公司同时拥有专业的管理团队、财税团队，可提供一站式工商注册、记账报税、进出口资质、清关报关外贸服务。</p>
+        <div class="F1"> 
+            <!--<img class="damen" src="#"  width="250px" height="250px" align="left" alt="海南龙利电商" /> -->
+       <p class="wenben">&emsp;&emsp;<strong>海南龙利跨境电商集团有限公司芜湖分公司</strong>
+       海南龙利跨境电商集团有限公司于2020年11月在安徽省芜湖市，全资成立海南龙利跨境电商集团有限公司芜湖分公司。
+       集团公司主要从事三大板块业务：互联网+再生资源、互联网+国际贸易、互联网+财税服务，这是龙利集团在开始做互联网信息化服务平台项目下的新布局
+       ，为方便分公司运营，集团在湾沚区购买270平方办公区域；同时与芜湖市湾沚区人民政府签订项目合作协议，
+       这标志着我集团公司互联网信息化服务平台项目在芜湖市开启新起点，进入了新征程；在推进集团化发展的过程中，与政府共同配合，
+       为互联网信息化服务平台开辟一条新的道路，实现利益最大化的战略共赢。</p>
     </div>
     <br>
     <!-- 图片宣传 -->
+
+    <!--
     <div class="laydiv">
         <div class="swiper-slide customer-block"
             v-for="(item,index) in List"
@@ -19,8 +22,8 @@
                 <img v-image-preview class="center-block" id="tu" :src="item.img" alt="picture">
             </div>
         </div>
-    </div>
-    
+    </div>  
+    -->
   <!--  <div calss="F2"> 
       <p>&emsp;&emsp;海南自贸区龙利电子商务有限责任公司成立于2019年，在中央部署的海南自贸港大好形势下：海南自贸区龙利电子商务有限责任公司注册在海南省澄迈县老城镇高新技术产业示范区海南生态软件园，实际办公地点位于海口市海垦路119号，公司主营业务为再生纸浆、纸制品进出口贸易、国内废纸贸易、其他再生资源务。</p>
       
@@ -28,6 +31,7 @@
     </div>   -->
      
 <!-- 轮播图 -->
+<!--
     <div id="swiper" class="container-fuild">
       <div class="swiper-container banner-swiper">
         <div class="swiper-wrapper">
@@ -40,6 +44,7 @@
             </div>
           </div>
         </div>
+        -->
         <!-- 如果需要分页器 -->
         <!-- 1234567890- -->
         <!-- <div class="swiper-pagination"></div> -->
@@ -47,9 +52,9 @@
         <!-- 如果需要导航按钮 -->
         <!-- <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div> -->
-      </div>
+     <!-- </div>
     
-    </div>
+    </div>-->
     </div>
 </template>
 <script>

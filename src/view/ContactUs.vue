@@ -5,34 +5,36 @@
       <div class="container-fuild ContactUs-container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">
-            海南自贸区龙利电子商务有限公司 
+           海南龙利跨境电商集团有限公司 
             <br>
             <form class="form-horizontal" role="form">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">地址</label>
                 <div class="col-sm-10 col-xs-12">
-                  海南省海口市龙华区南海大道海垦路九九华府119号（海南自贸区龙利电子商务有限公司）
+                  海南省海口市龙华区南海大道海垦路九九华府119号（二楼）
                 </div>
               </div>
               <div class="form-group">
                 <label for="email" class="col-sm-2 control-label">邮箱</label>
                 <div class="col-sm-10">
-                  BZlongli@163.com
+                  2419272698@qq.com
                 </div>
               </div>
               <div class="form-group">
                 <label for="tel" class="col-sm-2 control-label">电话</label>
                 <div class="col-sm-10">
-                  0558-5573888
+                  0898-66828131
                 </div>
               </div>
+              
               <div class="form-group">
-                <label for="content" class="col-sm-2 control-label">QQ</label>
+                <label for="content" class="col-sm-2 control-label">微信</label>
                 <div class="col-sm-10">
                   1404366753
                 </div>
-              </div>
+              </div><!--
             </form>
+            
            亳州龙利再生资源回收有限公司
             <br>
             <form class="form-horizontal" role="form">
@@ -45,21 +47,22 @@
               <div class="form-group">
                 <label for="email" class="col-sm-2 control-label">邮箱</label>
                 <div class="col-sm-10">
-                  BZlongli@163.com
+                  2419272698@qq.com
                 </div>
               </div>
               <div class="form-group">
                 <label for="tel" class="col-sm-2 control-label">电话</label>
                 <div class="col-sm-10">
-                  0558-5573888
+                  0898-66828131
                 </div>
               </div>
               <div class="form-group">
-                <label for="content" class="col-sm-2 control-label">QQ</label>
+                <label for="content" class="col-sm-2 control-label">微信</label>
                 <div class="col-sm-10">
                   1404366753
                 </div>
               </div>
+              -->
             </form>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-6">
@@ -88,10 +91,10 @@ export default {
     var opts = {
       width: 50, // 信息窗口宽度
       height: 10, // 信息窗口高度
-      title: "龙利集团有限责任公司" // 信息窗口标题
+      title: "海南跨境电商集团有限公司" // 信息窗口标题
     };
     var infoWindow = new BMap.InfoWindow(
-      "海南自贸区电子商务有限公司",
+      "海南自贸区电子商务有限公司（二楼）",
       opts
     ); // 创建信息窗口对象
     map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口
