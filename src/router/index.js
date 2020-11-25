@@ -56,7 +56,7 @@ export default new Router({
               name: 'subsidiaries',
               component: resolve => require(['@/view/subsidiaries_wuhu'], resolve),
               meta: {
-                title: '芜湖分公司'
+                title: '海南龙利跨境电商集团有限公司芜湖分公司'
               }
              }
             // {

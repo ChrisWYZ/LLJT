@@ -30,7 +30,7 @@
               <div class="form-group">
                 <label for="content" class="col-sm-2 control-label">微信</label>
                 <div class="col-sm-10">
-                  1404366753
+                  longligroup
                 </div>
               </div><!--
             </form>

@@ -107,7 +107,7 @@ export default {
               path: "/subsidiaries/bozhoulongli"
             },
              {
-               name: "芜湖分公司",
+               name: "海南龙利跨境电商集团有限公司芜湖分公司",
                path: "/subsidiaries/wuhu"
             }
             //  {

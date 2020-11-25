@@ -40,7 +40,7 @@ export default {
                     name: '亳州回收资源有限责任公司'
                  },{
                      path: '/subsidiaries/wuhu',
-                     name: '芜湖分公司'
+                     name: '海南龙利跨境电商集团有限公司芜湖分公司'
                  }
                  //{
                 //     path: '/subsidiaries/hainanlongliyuan',
