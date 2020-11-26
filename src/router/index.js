@@ -39,7 +39,7 @@ export default new Router({
               name: 'subsidiaries',
               component: resolve => require(['@/view/subsidiaries_hainandianshang'], resolve),
               meta: {
-                title: '海南自贸区龙利电子商务责任有限公司'
+                title: '海南自贸区龙利电子商务有限责任公司'
               }
               
             },
@@ -48,7 +48,7 @@ export default new Router({
               name: 'subsidiaries',
               component: resolve => require(['@/view/subsidiaries_bozhoulongli'], resolve),
               meta: {
-                title: '亳州龙利回收资源有限责任公司'
+                title: '亳州龙利再生资源回收有限公司'
               }
             },
              {

@@ -98,22 +98,19 @@ export default {
           path: "/subsidiaries",
           children: [
             {
-              name: "海南自贸区电子商务责任有限公司",
+              name: "海南自贸区龙利电子商务有限责任公司",
               path: "/subsidiaries/hainandianshang"
               
             },
             {
-              name: "亳州回收资源有限责任公司",
+              name: "亳州龙利再生资源回收有限公司",
               path: "/subsidiaries/bozhoulongli"
             },
              {
                name: "海南龙利跨境电商集团有限公司芜湖分公司",
                path: "/subsidiaries/wuhu"
             }
-            //  {
-            //   name: "海南隆利源国际贸易有限公司",
-            //   path: "/subsidiaries/hainanlongliyuan"
-            // },
+          
           ]
         },
         {

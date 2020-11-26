@@ -1,7 +1,7 @@
 <template>
     <div id="subsidiaries">
         <div class="F1"> <img class="damen" src="@/assets/img/hainanll1.jpg"  width="250px" height="250px" align="left" alt="海南龙利电商" />
-       <p class="wenben">&emsp;&emsp;<strong>海南自贸区龙利电子商务责任有限公司</strong>
+       <p class="wenben">&emsp;&emsp;<strong>海南自贸区龙利电子商务有限责任公司</strong>
        成立于2019年，注册在海南省澄迈县老城镇高新技术产业示范区海南生态软件园，实际办公地点位于海口市海垦路119号，
        为海南龙利跨境电商集团有限公司的控股母公司，公司主营业务为进出口再生纸浆、纸制品、国内废纸贸易及其他再生资源业务。
       2020年公司运营的海南贸易网，致力打造成为海内外再生资源进出口贸易信息化窗口，为再生资源产业链提供供求的线上交易服务，
