@@ -32,12 +32,12 @@ export default {
             subsidiariesList: [
                 {
                      path: '/subsidiaries/hainandianshang',
-                    name: '海南自贸区电子商务责任有限公司'
+                    name: '海南自贸区龙利电子商务有限责任公司'
                     
                    // img: require("@/assets/img/maoyuerma.jpg"),
                 },{
                     path: '/subsidiaries/bozhoulongli',
-                    name: '亳州回收资源有限责任公司'
+                    name: '亳州龙利再生资源回收有限公司'
                  },{
                      path: '/subsidiaries/wuhu',
                      name: '海南龙利跨境电商集团有限公司芜湖分公司'
