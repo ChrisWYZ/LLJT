@@ -91,10 +91,10 @@ export default {
     var opts = {
       width: 50, // 信息窗口宽度
       height: 10, // 信息窗口高度
-      title: "海南跨境电商集团有限公司" // 信息窗口标题
+      title: "海南龙利跨境电商集团有限公司" // 信息窗口标题
     };
     var infoWindow = new BMap.InfoWindow(
-      "海南自贸区电子商务有限公司（二楼）",
+      "海南自贸区龙利电子商务有限责任公司（二楼）",
       opts
     ); // 创建信息窗口对象
     map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口
