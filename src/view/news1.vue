@@ -1,143 +1,101 @@
 <template>
   <div id="News">    
     <div class="title text-center">
-      <h4> 热烈庆祝龙利集团在2020年第四届中国品牌博鳌峰会斩获殊荣
+      <h4> 热烈欢迎第五届中国回收纸行业大会领导及嘉宾们莅临龙利集团参观
       </h4>
     </div> 
     <div class="container">
       <p>
-      &emsp;&emsp;9月26-27日，由中国商报社、中国企业网联合主办的“第四届中国品牌博鳌会”在海南博鳌顺利举行，我公司受邀参评，龙利集团董事长兼总经理宋军、总经理助理张红、副总经理卢莹珊、副总经理崔园代表公司出席系列活动。此 次峰会中龙利集团荣获“中国行业十大影响力品牌”奖、“中国自主品牌500强”奖、公司宋军董事长获选“中国新时代十大品牌人物”奖。
+      &emsp;&emsp;2020年11月27日，中国再生资源回收利用协会副会长兼秘书长潘永刚先生、中国造纸协会副理事长兼江苏省造纸行业协会会长牛庆民先生以及参加第五届中国回收纸行业大会的嘉宾们一行莅临海南龙利跨境电商集团有限公司（以下简称龙利集团）进行实地参观，龙利集团董事长兼总经理宋军先生，总经理助理张红女士、公司副总卢莹珊以及副总崔园女士给予了热情的接待。
       </p>     
       </div>
       <!-- 宣传图片添加 -->
       <div class="container">
           <div class="picture"> 
             <div class="row">
-                  <img src="../assets/img/boao01.jpg" alt="">             
+                  <img src="../assets/img/1127xinwen01.jpg" alt="">             
             </div>
           </div> 
         </div>
-      <!-- 标题 -->
-      <div class="biaoti" style="text-align:center">
-      <p>
-       <strong> 董事长宋军（左一）代表公司领奖</strong>
-      </p>
-      </div>
       <!-- 宣传图片添加 -->
       <div class="container">
           <div class="picture"> 
             <div class="row">
-                  <img src="../assets/img/boao02.jpg" alt="">             
+                  <img src="../assets/img/1127xinwen02.jpg" alt="">             
             </div>
           </div> 
         </div>
-      <!-- 标题 -->
-      <div class="biaoti" style="text-align:center">
-      <p>
-       <strong>董事长宋军（右三）获“中国新时代十大品牌人物”奖</strong>
-      </p>
-      </div>  
+      <!-- wenben -->  
       <div class="container">
       <p>
-      &emsp;&emsp;此次峰会邀请了国家领导人、有关部委领导、知名专家学者、品牌领袖和全国各地优秀企业家代表等嘉宾出席，并开展中国自主品牌500强发布会、主题论坛、品牌新闻发布厅，中国自主品牌展览会、博鳌品牌人物颁奖典礼、全渠道资源对接会、投融资对接会等主题活动聚焦品牌强国战略，探讨品牌发展挑战和机遇。
+      &emsp;&emsp;在现场，公司副总经理崔园女士向来访的领导及嘉宾们介绍了集团概况、主营业务，并带领大家对公司办公场所进行了实地参观。崔总重点向各位同行介绍了集团公司全力打造的海南贸易网平台，一个再生资源行业贸易信息化电子商务服务窗口，从废旧物资信息的供求，到废旧物资的供求和销售，为广大贸易上下游企业和个人提供线上线下相结合，实现多渠道销售。
       </p>     
       </div>
       <!-- 图片 -->
         <div class="container">
           <div class="picture"> 
             <div class="row">
-                  <img src="../assets/img/boao03.jpg" alt="">             
+                  <img src="../assets/img/1127xinwen03.jpg" alt="">             
               </div>
               </div>
-          </div>
-          <!-- 图片标题 -->
-          <div class="biaoti" style="text-align:center">
-            <p><strong>此次峰会与会领导、嘉宾</strong></p>
           </div>
           <!-- wenben -->
           <div class="container">
       <p>
-      &emsp;&emsp;海南龙利跨境电商集团有限公司，简称“龙利集团”,目前全国已经拥有近 10个关联公司，2020年在中央宣布成立海南自贸港的政策下，龙利集团加快了整合步伐，以海南自贸区龙利电子商务有限责任公司为母公司，整合海南龙利国际贸易公司、海南隆利源国际贸易有限公司、亳州龙利再生资源回收有限公司、亳州龙翔木业有限公司共同出资成立了龙利集团，公司业务扩展到境外的美国、 欧洲、东南亚国家，境内海南、广东、广西、福建、上海、重庆、河南、安 徽、黑龙江等省份。 集团公司主营业务为互联网批发：互联网+再生资源、互联网+国际贸易、互联网+财税服务。
+      &emsp;&emsp;在中央大力发展推动海南自贸港的背景下，龙利集团享受海南自贸港进出口零关税、企业所得税减半15%的优惠政策。为解决行业痛点，2020年公司注册并开始运营海南贸易网，在打造再生资源国际、国内领先的再生资源交易平台基础上，进一步解决行业税务难点，推动行业发展。牛会长对海南贸易网的运营模式给予了肯定，并希望以后能加大行业间合作，共同解决税务难题，通过试点推广，让互联网模式的新模式替代传统模式，最后促进国内回收纸回收体系的新格局的发展。
       </p>     
       </div>
-      <!-- 图片 -->
+      <!-- 并排图片 -->
+        <div class="container">
+          <div class="picture"> 
+            <div class="row">
+              <div class=" col-sm-6" id="demo1">
+                  <img src="../assets/img/1127xinwen04.jpg" alt="">         
+              </div>
+              <div class=" col-sm-6"  id="demo2">
+                  <img src="../assets/img/1127xinwen05.jpg" alt=""> 
+              </div>
+            </div>
+              </div>
+          </div>
+          <!-- 并排图片 -->
+        <div class="container">
+          <div class="picture"> 
+            <div class="row">
+              <div class=" col-sm-6" id="demo1">
+                  <img src="../assets/img/1127xinwen06.jpg" alt="">         
+              </div>
+              <div class=" col-sm-6"  id="demo2">
+                  <img src="../assets/img/1127xinwen07.jpg" alt=""> 
+              </div>
+            </div>
+              </div>
+          </div>
+          <!-- wenben -->
+          <div class="container">
+      <p>
+      &emsp;&emsp;通过此次的实地参观，同行业领导及嘉宾对我公司的建设、创新发展、运营能力、壮大的一系列过程取得的成绩给予高度的认可，在再生资源行业经济发展前进的步伐更加坚定而充满力量，也希望通过这次的实地参观，大家资源整合，互相学习，在行业中可以不断的提升，不断的扩大业务发展。
+      </p>     
+      </div>
+          <!-- 图片 -->
         <div class="container">
           <div class="picture"> 
             <div class="row">
               <!-- <div class=" col-sm-6" id="demo1"> -->
-                  <img src="../assets/img/boao04.jpg" alt="">             
+                  <img src="../assets/img/1127xinwen08.jpg" alt="">             
               </div>
               </div>
-          </div>
-          <!-- 图片标题 -->
-          <div class="biaoti" style="text-align:center">
-            <p><strong>董事长宋军参会</strong></p>
           </div>
           <!-- 图片 -->
         <div class="container">
           <div class="picture"> 
             <div class="row">
               <!-- <div class=" col-sm-6" id="demo1"> -->
-                  <img src="../assets/img/boao05.jpg" alt="">             
+                  <img src="../assets/img/1127xinwen09.jpg" alt="">             
               </div>
               </div>
           </div>
-          <!-- 图片标题 -->
-          <div class="biaoti" style="text-align:center">
-            <p><strong>董事长宋军参加行业论坛（右一）</strong></p>
-          </div>
-          <!-- 图片 -->
-        <div class="container">
-          <div class="picture"> 
-            <div class="row">
-              <!-- <div class=" col-sm-6" id="demo1"> -->
-                  <img src="../assets/img/boao06.jpg" alt="">             
-              </div>
-              </div>
-          </div>
-          <!-- 图片标题 -->
-          <div class="biaoti" style="text-align:center">
-            <p><strong>董事长宋军在第四届中国品牌博鳌峰会分享交流</strong></p>
-          </div>
-          <!-- 图片 -->
-        <div class="container">
-          <div class="picture"> 
-            <div class="row">
-              <!-- <div class=" col-sm-6" id="demo1"> -->
-                  <img src="../assets/img/boao07.jpg" alt="">             
-              </div>
-              </div>
-          </div>
-          <!-- 图片标题 -->
-          <div class="biaoti" style="text-align:center">
-            <p><strong>副总经理卢莹珊（左）、总经理助理张红（右）参会</strong></p>
-          </div>
-          <!-- 图片 -->
-        <div class="container">
-          <div class="picture"> 
-            <div class="row">
-              <!-- <div class=" col-sm-6" id="demo1"> -->
-                  <img src="../assets/img/boao09.jpg" alt="">             
-              </div>
-              </div>
-          </div>
-          <!-- 图片标题 -->
-          <div class="biaoti" style="text-align:center">
-            <p><strong>副总经理崔园参会</strong></p>
-          </div>
-          <!-- 图片 -->
-        <div class="container">
-          <div class="picture"> 
-            <div class="row">
-              <!-- <div class=" col-sm-6" id="demo1"> -->
-                  <img src="../assets/img/boao10.jpg" alt="">             
-              </div>
-              </div>
-          </div>
-          <!-- 图片标题 -->
-          <div class="biaoti" style="text-align:center">
-            <p><strong>海南龙利集团代表团队合影</strong></p>
-          </div>
+         
 
       
   </div>

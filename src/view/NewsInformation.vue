@@ -64,51 +64,66 @@ export default {
             newsList:[
                 {
                     id: '001',
-                    title: '2020中国品牌博鳌峰会',
-                    introduce: '非常荣幸我们公司荣获“中国行业十大影响力品牌”奖、“中国自主品牌500强”奖;公司宋军董事长获选“中国新时代十大品牌人物”。',
-                    logo: require("@/assets/img/boao01.jpg"),
-                    date: '09-27',
+                    title: '热烈欢迎第五届中国回收纸行业大会领导及嘉宾们莅临龙利集团参观',
+                    introduce: '热烈欢迎第五届中国回收纸行业大会领导及嘉宾们莅临龙利集团参观',
+                    logo: require("@/assets/img/1127xinwen01.jpg"),
+                    date: '11-27',
                     year: '2020',
 
                 
                     
                 },{
                     id: '002',
+                    title: '热烈庆祝龙利集团亳州龙利公司荣获2019年度 中国回收纸行业20强企业第二名',
+                    introduce: '龙利集团亳州龙利公司荣获2019年度 中国回收纸行业20强企业第二名',
+                    logo: require("@/assets/img/1125xinwen01.jpg"),
+                    date: '11-25',
+                    year: '2020'
+                 
+                },{
+                    id: '003',
+                    title: '2020中国品牌博鳌峰会',
+                    introduce: '非常荣幸我们公司荣获“中国行业十大影响力品牌”奖、“中国自主品牌500强”奖;公司宋军董事长获选“中国新时代十大品牌人物”。',
+                    logo: require("@/assets/img/boao01.jpg"),
+                    date: '09-27',
+                    year: '2020',
+                },{
+                    id: '004',
                     title: '立足海南自贸港、知政策、享优惠、寻商机',
                     introduce: '海南是我国最大的经济特区，具有实施全面深化改革和试验最高水平开放政策的独特优势。',
                     logo: require("@/assets/img/hangye12.jpg"),
                     date: '09-12',
                     year: '2020'
-                 
                 },{
-                    id: '003',
+                    id: '005',
                     title: '赴海口调研会员再生纸浆进口业务开展及两网融合工作推进情况',
                     introduce: '2020年11月第五届中国回收纸行业大会将在海口举办',
                     logo: require("@/assets/img/xinwen0051.jpg"),
                     date: '09-25',
                     year: '2020'
                 },{
-                    id: '004',
+                     id: '006',
                     title: '海南将成为奢侈品购物消费新天堂',
                     introduce: '离岛免税购物火爆，吸引境外消费回流效果明显，化妆品、香水、首饰、手表等免税商品成为抢手货。',
                     logo: require("@/assets/img/hangye5.jpg"),
                     date: '08-17',
                     year: '2020'
                 },{
-                    id: '005',
+                    id: '007',
                     title: '战略合作',
                     introduce: '海南自贸区龙利电子商务有限责任公司与北京中税税务咨询股份有限公司正式签约战略合作协议',
                     logo: require("@/assets/img/zhanlve1.jpg"),
                     date: '08-14',
                     year: '2020'
                 },{
-                    id: '006',
+                    id: '008',
                     title: '海南自由贸易港',
                     introduce: '海南自由贸易港的建设发展趋势',
                     logo: require("@/assets/img/hangye1.jpg"),
                     date: '06-01',
                     year: '2020'
-                }
+                },
+                
                 
             ],
             
@@ -154,6 +169,11 @@ export default {
             else if(id==6){
                 this.$router.push({
                     path: '/news6'
+                })
+            }
+             else if(id==7){
+                this.$router.push({
+                    path: '/news7'
                 })
             }
 
