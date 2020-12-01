@@ -59,14 +59,6 @@ export default new Router({
                 title: '海南龙利跨境电商集团有限公司芜湖分公司'
               }
              }
-            // {
-            //   path: '/subsidiaries/hainanlongliyuan',
-            //   name: 'subsidiaries',
-            //   component: resolve => require(['@/view/subsidiaries_hainanlongliyuan'], resolve),
-            //   meta: {
-            //     title: '海南龙利源'
-            //   },
-            // }
           ]
         }, {
           path: '/service',
@@ -112,7 +104,7 @@ export default new Router({
             title: '相关服务'
           }
         },
-        /*添加六个的新闻路由 
+        /*添加新闻路由 
         第一个
         */
         {
@@ -182,6 +174,14 @@ export default new Router({
           path: '/news8',
           name: 'new8',
           component: resolve => require(['@/view/news8'], resolve),
+          meta: {
+            title: '新闻动态'
+          }
+         },/* 第九个 */
+         {
+          path: '/news9',
+          name: 'new9',
+          component: resolve => require(['@/view/news9'], resolve),
           meta: {
             title: '新闻动态'
           }

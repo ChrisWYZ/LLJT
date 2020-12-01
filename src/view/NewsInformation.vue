@@ -10,7 +10,7 @@
                 <a href="javascript:void(0)" class="active">行业动态</a>
             </div>
             <ul class="news-container container-fuild">
-                <li v-for="(item,index) in newsList" :key="index" class="wow fadeIn"  @click="toURL(item.id)">
+                <li v-for="(item,index) in ordernewsList" :key="index" class="wow fadeIn"  @click="toURL(item.id)">
                     <div class="content">
                         <p >{{item.title}}</p>
                         <p>{{item.introduce}}</p>
@@ -69,16 +69,24 @@ export default {
                     logo: require("@/assets/img/1127xinwen01.jpg"),
                     date: '11-27',
                     year: '2020',
-
-                
-                    
+                    order: 9,
+                  
+                },{
+                    id: '009',
+                    title: '海南与中国贸促会签约并举行自贸港推介座谈会',
+                    introduce: '11月26日，中国国际贸易促进委员会与海南省人民政府在海口市签署深化合作备忘录，并共同举办海南自贸港推介座谈会和中国贸促会海南自由贸易港服务中心揭牌仪式。',
+                    logo: require("@/assets/img/1126xinwen01.jpg"),
+                    date: '11-26',
+                    year: '2020',
+                    order: 8,
                 },{
                     id: '002',
                     title: '热烈庆祝龙利集团亳州龙利公司荣获2019年度 中国回收纸行业20强企业第二名',
                     introduce: '龙利集团亳州龙利公司荣获2019年度 中国回收纸行业20强企业第二名',
                     logo: require("@/assets/img/1125xinwen01.jpg"),
                     date: '11-25',
-                    year: '2020'
+                    year: '2020',
+                    order: 7,
                  
                 },{
                     id: '003',
@@ -87,41 +95,47 @@ export default {
                     logo: require("@/assets/img/boao01.jpg"),
                     date: '09-27',
                     year: '2020',
+                    order: 5,
                 },{
                     id: '004',
                     title: '立足海南自贸港、知政策、享优惠、寻商机',
                     introduce: '海南是我国最大的经济特区，具有实施全面深化改革和试验最高水平开放政策的独特优势。',
                     logo: require("@/assets/img/hangye12.jpg"),
                     date: '09-12',
-                    year: '2020'
+                    year: '2020',
+                    order: 6,
                 },{
                     id: '005',
                     title: '赴海口调研会员再生纸浆进口业务开展及两网融合工作推进情况',
                     introduce: '2020年11月第五届中国回收纸行业大会将在海口举办',
                     logo: require("@/assets/img/xinwen0051.jpg"),
                     date: '09-25',
-                    year: '2020'
+                    year: '2020',
+                    order: 3,
                 },{
                      id: '006',
                     title: '海南将成为奢侈品购物消费新天堂',
                     introduce: '离岛免税购物火爆，吸引境外消费回流效果明显，化妆品、香水、首饰、手表等免税商品成为抢手货。',
                     logo: require("@/assets/img/hangye5.jpg"),
                     date: '08-17',
-                    year: '2020'
+                    year: '2020',
+                    order: 4,
                 },{
                     id: '007',
                     title: '战略合作',
                     introduce: '海南自贸区龙利电子商务有限责任公司与北京中税税务咨询股份有限公司正式签约战略合作协议',
                     logo: require("@/assets/img/zhanlve1.jpg"),
                     date: '08-14',
-                    year: '2020'
+                    year: '2020',
+                    order: 1,
                 },{
                     id: '008',
                     title: '海南自由贸易港',
                     introduce: '海南自由贸易港的建设发展趋势',
                     logo: require("@/assets/img/hangye1.jpg"),
                     date: '06-01',
-                    year: '2020'
+                    year: '2020',
+                    order: 2
                 },
                 
                 
@@ -130,6 +144,12 @@ export default {
            
         }
         
+    },
+    computed:{
+        ordernewsList() {
+            return this.newsList.sort((a,b) => b.order - a.order)
+
+        }
     },
     mounted(){
         var wow = new WOW();
@@ -174,6 +194,16 @@ export default {
              else if(id==7){
                 this.$router.push({
                     path: '/news7'
+                })
+            }
+            else if(id==8){
+                this.$router.push({
+                    path: '/news8'
+                })
+            }
+            else if(id==9){
+                this.$router.push({
+                    path: '/news9'
                 })
             }
 
