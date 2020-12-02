@@ -26,6 +26,7 @@
                    </ul> 
                 </div>
             </div>
+            
         </div>
         <!-- 图片宣传 -->
          <div class="laydiv">
@@ -106,7 +107,7 @@ export default {
     transition: all ease 0.5s;
 }
 .CompanyIntroduction-container>div>p{
-    font-size: 14px;
+    font-size: 15px;
     line-height: 2.5rem;
 }
 
@@ -178,11 +179,9 @@ height: 300px;
 }
 .wenben {
     margin-top:380px;
-    font-size: 20px;
+    font-size: 15px;
 }
-.wenben > p {
-    font-size: 20px;
-}
+
 </style>
 
 
