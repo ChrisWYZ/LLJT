@@ -35,7 +35,7 @@ export default {
 }
 .logo {
   
-  margin: 30px 46% 20px;
+  margin: 30px 47.5% 20px;
 }
 .title {
   font-size: 25px;

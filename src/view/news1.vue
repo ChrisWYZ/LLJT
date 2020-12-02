@@ -121,6 +121,9 @@
    font-family:"华文陆帅","Arial","Angsana New";
     font-size: 20px;
     vertical-align:middle;   
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 2.2em;
 }
 .picture img {      
     width:100% ;
@@ -128,5 +131,6 @@
     padding: 2px;
     border: .5px solid #ffffff;
     border-radius: 10%;
+    margin-bottom: 25px;
     }
 </style>

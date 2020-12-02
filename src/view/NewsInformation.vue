@@ -10,7 +10,7 @@
                 <a href="javascript:void(0)" class="active">行业动态</a>
             </div>
             <ul class="news-container container-fuild">
-                <li v-for="(item,index) in ordernewsList" :key="index" class="wow fadeIn"  @click="toURL(item.id)">
+                <li v-for="(item,index) in ordernewsList" :key="index" class="wow bounceInLeft"  @click="toURL(item.id)">
                     <div class="content">
                         <p >{{item.title}}</p>
                         <p>{{item.introduce}}</p>
@@ -352,7 +352,7 @@ export default {
 #contactUs {
   color: #fff;
   height: 400px;
-  background: url("../assets/img/kouhao.jpg") 0 0 no-repeat;
+  background: url("../assets/img/kouhao1.jpg") 0 0 no-repeat;
   background-size: 100% 100%;
   transition: all ease 0.6s;
   padding: 80px;

@@ -73,9 +73,12 @@
     padding: 2px;
 }
 #News>.container>p {
-   font-family:"华文陆帅","Arial","Angsana New";
+    font-family:"华文陆帅","Arial","Angsana New";
     font-size: 20px;
-    vertical-align:middle;   
+    vertical-align:middle;
+    line-height: 2.2em;
+    margin-top: 25px;
+    margin-bottom: 25px;   
 }
 .picture img {      
     width:100% ;
