@@ -185,7 +185,8 @@ export default new Router({
           meta: {
             title: '新闻动态'
           }
-         },
+         },/* 第十个 */
+         
       ]
     }
   ],
