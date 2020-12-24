@@ -186,6 +186,22 @@ export default new Router({
             title: '新闻动态'
           }
          },/* 第十个 */
+         {
+          path: '/news10',
+          name: 'new10',
+          component: resolve => require(['@/view/news10'], resolve),
+          meta: {
+            title: '新闻动态'
+          }
+        },/* 第十一个 */
+        {
+         path: '/news11',
+         name: 'new11',
+         component: resolve => require(['@/view/news11'], resolve),
+         meta: {
+           title: '新闻动态'
+         }
+       },
          
       ]
     }

@@ -136,6 +136,22 @@ export default {
                     date: '06-01',
                     year: '2020',
                     order: 2
+                },{
+                    id: '010',
+                    title: '热烈欢迎文昌市发改委电子商务室黄主任莅临龙利集团指导',
+                    introduce: '海南省文昌市发改委电子商务室黄主任莅临海南龙利跨境电商集团有限公司进行实地参观',
+                    logo: require("@/assets/img/xinwen121501.jpg"),
+                    date: '12-15',
+                    year: '2020',
+                    order: 10
+                },{
+                    id: '011',
+                    title: '热烈欢迎北京国资委李保民一行莅临龙利集团指导',
+                    introduce: '北京国资委李保民一行在海南省亳州商会尚秘书长的陪同下莅临海南龙利跨境电商集团有限公司进行指导参观',
+                    logo: require("@/assets/img/xinwen121505.jpg"),
+                    date: '12-15',
+                    year: '2020',
+                    order: 11
                 },
                 
                 
@@ -204,6 +220,18 @@ export default {
             else if(id==9){
                 this.$router.push({
                     path: '/news9'
+                })
+            
+            }
+            else if(id==10){
+                this.$router.push({
+                    path: '/news10'
+                })
+            
+            }
+            else if(id==11){
+                this.$router.push({
+                    path: '/news11'
                 })
             
             }
