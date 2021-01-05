@@ -124,6 +124,11 @@ export default {
           children: []
         },
         {
+          name: "市场行情",
+          path: "/Market",
+          children: []
+        },
+        {
           name: "公司介绍",
           path: "/companyintroduction",
           children: []
