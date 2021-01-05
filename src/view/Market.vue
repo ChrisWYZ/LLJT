@@ -13,12 +13,14 @@
             <button type="submit"></button>
           </form>
         </div>
-        <!-- 框架 -->
+        <!-- 表格 -->
+        <el-button style="margin: 0 0 50px 400px" @click="clearFilter">清除所有过滤器</el-button>
         <el-table
+        ref="filterTable"
       stripe
       :data="priceList"
       :header-cell-class-name="getRowClass"
-      style="width: 100%">
+      style="width: 1080px; margin: 0 auto">
       <el-table-column
         prop="id"
         label="id"
@@ -48,7 +50,12 @@
       <el-table-column
         prop="time"
         label="时间"
-        width="180">
+        width="180"
+        sortable
+        column-key="time"
+      :filters="[{text: '2020-12-29', value: '2020-12-29'}, {text: '2021-01-05', value: '2021-01-05'}]"
+      :filter-method="filterHandler">
+        
       </el-table-column>
 
     </el-table>
@@ -124,6 +131,21 @@ export default {
         return
       }
     },
+    resetDateFilter() {
+        this.$refs.filterTable.clearFilter('time');
+      },
+      clearFilter() {
+        this.$refs.filterTable.clearFilter();
+      },
+      filterTag(value, row) {
+        return row.tag === value;
+      },
+      filterHandler(value, row, column) {
+        const property = column['property'];
+        return row[property] === value;
+      },
+    
+    
     navClick(index, name) {
       this.navIndex = index;
       sessionStorage.setItem('navIndex',index)
@@ -210,10 +232,11 @@ input,button{
   height: 50px;
   margin-top:20px;
 }
-/* 框架 */
+/* 表格 */
 .el-table .thead-row {
-  background: hsl(99, 39%, 73%);
-  font-color: white;
+  background: hsl(99, 50%, 81%);
+  color:black;
+  font-weight: bold;
 }
 
 </style>
