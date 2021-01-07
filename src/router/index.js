@@ -74,14 +74,16 @@ export default new Router({
           meta: {
             title: '新闻动态'
           }
-        },{
-          path: '/Market',
-          name: 'Market',
-          component: resolve => require(['@/view/Market'], resolve),
-          meta: {
-            title: '市场行情'
-          }
-        },{
+        },
+        // {
+        //   path: '/Market',
+        //   name: 'Market',
+        //   component: resolve => require(['@/view/Market'], resolve),
+        //   meta: {
+        //     title: '市场行情'
+        //   }
+        // },
+        {
           path: '/companyintroduction',
           name: 'companyintroduction',
           component: resolve => require(['@/view/CompanyIntroduction'], resolve),

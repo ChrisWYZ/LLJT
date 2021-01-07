@@ -137,8 +137,6 @@ value1: '',
 
       ],
 
-
-
     };
 
   },
@@ -161,6 +159,7 @@ value1: '',
           this.priceList = response.data
         })
     },
+
     getRowClass ({rowIndex}){
       if (rowIndex == 0){
         return 'thead-row';
