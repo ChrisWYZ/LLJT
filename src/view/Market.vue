@@ -14,9 +14,14 @@
           </form>
         </div>
         <!-- 表格 -->
-        <el-button style="margin: 0 0 50px 400px" @click="clearFilter">清除所有过滤器</el-button>
+        <el-button style="margin: 0 720px 50px 400px" @click="clearFilter">清除所有筛选</el-button>
+        <el-date-picker
+      v-model="value1"
+      type="date"
+      placeholder="选择日期">
+    </el-date-picker>
         <el-table
-        ref="filterTable"
+      ref="filterTable"
       stripe
       :data="priceList"
       :header-cell-class-name="getRowClass"
@@ -24,40 +29,44 @@
       <el-table-column
         prop="id"
         label="id"
-        color="white"
         width="180">
       </el-table-column>
       <el-table-column
         prop="product"
         label="商品"
-        width="180">
+        width="180"
+        column-key="area"
+      :filters="[{text: '纸浆', value: '纸浆'}, {text: '欧废', value: '欧废'},{text: '美废',value: '美废'}]"
+      :filter-method="filterHandler">
       </el-table-column>
       <el-table-column
         prop="price"
         label="价格"
-        width="180">
+        width="180"
+        sortable>
       </el-table-column>
       <el-table-column
         prop="area"
         label="地区"
-        width="180">
+        width="180"
+        column-key="area"
+      :filters="[{text: '北京', value: '北京'}, {text: '上海', value: '上海'},{text: '广州',value: '广州'}]"
+      :filter-method="filterHandler">
       </el-table-column>
       <el-table-column
         prop="change"
         label="涨跌"
-        width="180">
+        width="180"
+        sortable>
       </el-table-column>
       <el-table-column
         prop="time"
         label="时间"
         width="180"
         sortable
-        column-key="time"
-      :filters="[{text: '2020-12-29', value: '2020-12-29'}, {text: '2021-01-05', value: '2021-01-05'}]"
-      :filter-method="filterHandler">
-        
+        column-key="time">
       </el-table-column>
-
+      
     </el-table>
                 <!-- 联系我们 -->
     <div id="contactUs" class="container-fuild text-center">
@@ -86,6 +95,12 @@ export default {
   name: "Header",
   data() {
     return {
+      pickerOptions: {
+          disabledDate(time) {
+            return time.getTime() > Date.now();
+          },
+        },
+value1: '',
       priceList: [
         {
           id:'1',
@@ -116,13 +131,15 @@ export default {
           change:'+30',
           time:'2021-01-05',
         },
-        
-       
-          
+           
       ],
 
+      
+
     };
+    
   },
+
   methods: {
     getRowClass ({rowIndex}){
       if (rowIndex == 0){
@@ -133,7 +150,10 @@ export default {
     },
     resetDateFilter() {
         this.$refs.filterTable.clearFilter('time');
+        this.$refs.filterTable.clearFilter('area');
+        this.$refs.filterTable.clearFilter('product');
       },
+
       clearFilter() {
         this.$refs.filterTable.clearFilter();
       },
@@ -144,7 +164,6 @@ export default {
         const property = column['property'];
         return row[property] === value;
       },
-    
     
     navClick(index, name) {
       this.navIndex = index;
