@@ -147,7 +147,12 @@ value1: '',
   },
   methods: {
     getPriceList() {
-      let time = this.value1.getFullYear()+"-"+(this.value1.getMonth()+1)+"-"+this.value1.getDate()
+      let time = ''
+      if (!this.value1) {
+        time = ''
+      } else {
+        time = this.value1.getFullYear()+"-"+(this.value1.getMonth()+1)+"-"+this.value1.getDate()
+      }
       axios.get('http://localhost:8000/market', {
         params: {
           time: time
