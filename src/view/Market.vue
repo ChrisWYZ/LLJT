@@ -4,7 +4,7 @@
             <div class="container text-center">
                 <h3>市场行情</h3>
                 <p style="color:#b2b2b2">Market</p>
-            </div> 
+            </div>
         </div>
         <!-- 搜索框 -->
         <div class="search">
@@ -17,6 +17,7 @@
         <el-button style="margin: 0 720px 50px 400px" @click="clearFilter">清除所有筛选</el-button>
         <el-date-picker
       v-model="value1"
+      @change="getPriceList"
       type="date"
       placeholder="选择日期">
     </el-date-picker>
@@ -66,7 +67,7 @@
         sortable
         column-key="time">
       </el-table-column>
-      
+
     </el-table>
                 <!-- 联系我们 -->
     <div id="contactUs" class="container-fuild text-center">
@@ -75,7 +76,7 @@
         <h3>用双手开拓进取，用能力创造未来。</h3>
         <h3>言必信、行必果！</h3>
         <h3>人人讲诚信、事事做诚信！</h3>
-        <router-link to="/ContactUS"><button 
+        <router-link to="/ContactUS"><button
           class="btn btn-default btn-sm"
           onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
           onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
@@ -91,6 +92,8 @@
 </template>
 <script>
 import { WOW } from 'wowjs';
+import axios from 'axios';
+
 export default {
   name: "Header",
   data() {
@@ -131,16 +134,28 @@ value1: '',
           change:'+30',
           time:'2021-01-05',
         },
-           
+
       ],
 
-      
+
 
     };
-    
-  },
 
+  },
+  mounted () {
+    this.getPriceList()
+  },
   methods: {
+    getPriceList() {
+      let time = this.value1.getFullYear()+"-"+(this.value1.getMonth()+1)+"-"+this.value1.getDate()
+      axios.get('http://localhost:8000/market', {
+        params: {
+          time: time
+        }
+      }).then(response => {
+          this.priceList = response.data
+        })
+    },
     getRowClass ({rowIndex}){
       if (rowIndex == 0){
         return 'thead-row';
@@ -164,7 +179,7 @@ value1: '',
         const property = column['property'];
         return row[property] === value;
       },
-    
+
     navClick(index, name) {
       this.navIndex = index;
       sessionStorage.setItem('navIndex',index)
@@ -197,7 +212,7 @@ input,button{
   margin-top: 20px;
   margin-bottom: 50px;
   margin-left: 38%;
-  
+
 }
 .search input{
   width: 100%;
@@ -244,7 +259,7 @@ input,button{
 /* 口号+按钮 */
 #contactUs .contactUs-container {
   padding: 0px;
-} 
+}
 /* 按钮 */
  #contactUs .contactUs-container button {
   width: 300px;
