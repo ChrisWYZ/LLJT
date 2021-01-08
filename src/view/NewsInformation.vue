@@ -65,7 +65,7 @@ export default {
                 {
                     id: '001',
                     title: '热烈欢迎第五届中国回收纸行业大会领导及嘉宾们莅临龙利集团参观',
-                    introduce: '热烈欢迎第五届中国回收纸行业大会领导及嘉宾们莅临龙利集团参观',
+                    introduce: '11月27日第五届中国回收纸行业大会领导及嘉宾们莅临龙利集团参观',
                     logo: require("@/assets/img/1127xinwen01.jpg"),
                     date: '11-27',
                     year: '2020',
