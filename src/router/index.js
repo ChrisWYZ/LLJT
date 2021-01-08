@@ -210,7 +210,16 @@ export default new Router({
          meta: {
            title: '新闻动态'
          }
-       },
+       },/* 第十二个 */
+       {
+        path: '/news12',
+        name: 'new12',
+        component: resolve => require(['@/view/news12'], resolve),
+        meta: {
+          title: '新闻动态'
+        }
+      },
+
          
       ]
     }

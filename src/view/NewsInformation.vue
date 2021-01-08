@@ -152,6 +152,14 @@ export default {
                     date: '12-15',
                     year: '2020',
                     order: 11
+                },{
+                    id: '012',
+                    title: '热烈庆祝龙利集团海南贸易网正式上线暨集团2021年迎新晚会成功举办',
+                    introduce: '龙利集团海南贸易网上线启动仪式暨集团2021年跨年迎新晚会于2020年12月31日晚在海口滨海大道欢乐海岸盛大举行！',
+                    logo: require("@/assets/img/xinwen010721.jpg"),
+                    date: '12-31',
+                    year: '2020',
+                    order: 12
                 },
                 
                 
@@ -232,6 +240,12 @@ export default {
             else if(id==11){
                 this.$router.push({
                     path: '/news11'
+                })
+            
+            }
+            else if(id==12){
+                this.$router.push({
+                    path: '/news12'
                 })
             
             }
