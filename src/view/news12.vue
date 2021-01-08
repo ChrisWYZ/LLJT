@@ -121,11 +121,11 @@
             <div class="row">
               <div class=" col-sm-6" id="demo1">
                   <img src="../assets/img/xinwen010714.png" alt="">
-                  <h6 class="xiaotushi3">集团员工小美女们留</h6>         
+                  <h6 class="xiaotushi3">集团员工小美女们留影</h6>         
               </div>
               <div class=" col-sm-6"  id="demo2">
                   <img src="../assets/img/xinwen010715.png" alt="">
-                  <h6 class="xiaotushi3">集团员工小美女们留</h6> 
+                  <h6 class="xiaotushi3">集团员工小美女们留影</h6> 
               </div>
             </div>
             <div class=" col-sm-6"  id="demo2">
