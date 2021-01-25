@@ -28,7 +28,7 @@
           :key="index"
           :class="index==navIndex?'active':''"
           @click="navClick(index,item.name)"
-          
+
         >
           <router-link :to="item.path">
             {{item.name}}
@@ -100,7 +100,7 @@ export default {
             {
               name: "海南自贸区龙利电子商务有限责任公司",
               path: "/subsidiaries/hainandianshang"
-              
+
             },
             {
               name: "亳州龙利再生资源回收有限公司",
@@ -110,7 +110,7 @@ export default {
                name: "海南龙利跨境电商集团有限公司芜湖分公司",
                path: "/subsidiaries/wuhu"
             }
-          
+
           ]
         },
         {
@@ -129,10 +129,16 @@ export default {
         //   children: []
         // },
         {
+          name: "市场行情",
+          path: "/Market",
+          children: []
+        },
+        {
           name: "公司介绍",
           path: "/companyintroduction",
           children: []
         },
+
         {
           name: "工作机会",
           path: "/jobchance",
@@ -142,7 +148,8 @@ export default {
           name: "联系我们",
           path: "/contactus",
           children: []
-        }
+        },
+
       ]
     };
   },
@@ -189,7 +196,7 @@ export default {
 /* 导航栏 */
 #header .header-nav {
   height: 110px;
-  
+
 }
 
 /* 导航栏logo */
@@ -235,7 +242,7 @@ export default {
   font-weight: bold;
   padding: 15px 0;
   position: relative;
-  
+
 }
 /* 导航栏 每个导航下面的 a 链接的下划线 */
 #header .header-nav .header-nav-wrapper > li > a > i {
@@ -307,7 +314,7 @@ export default {
 @media screen and (max-width: 997px) {
   #header .header-nav-m {
     position: relative;
-    
+
   }
   /* 导航栏logo容器 */
   #header .header-nav-m .header-nav-m-logo {

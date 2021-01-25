@@ -1,8 +1,9 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
+import './plugins/axios'
 import App from './App'
-import ElementUI from 'element-ui';
+//import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
@@ -12,8 +13,15 @@ import router from './router'
 /* axios */
 import axios from './api'
 import api from './api/api'
+
 Vue.prototype.http = axios;
 Vue.prototype.api = api;
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+
+Vue.use(ElementUI);
+
+
 
 /* swiper */
 import 'swiper/dist/css/swiper.min.css';
@@ -34,7 +42,7 @@ import 'animate.css'
 import VueDirectiveImagePreviewer from 'vue-directive-image-previewer'
 import 'vue-directive-image-previewer/dist/assets/style.css'
 Vue.use(VueDirectiveImagePreviewer)
- 
+
 /* 头部组件 */
 import Header from './components/Header'
 Vue.component(Header.name,Header)
@@ -65,3 +73,5 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+

@@ -41,7 +41,7 @@ export default new Router({
               meta: {
                 title: '海南自贸区龙利电子商务有限责任公司'
               }
-              
+
             },
             {
               path: '/subsidiaries/bozhoulongli',
@@ -90,7 +90,16 @@ export default new Router({
           meta: {
             title: '公司介绍'
           }
-        }, {
+        },
+        {
+          path: '/Market',
+          name: '市场行情',
+          component: resolve => require(['@/view/Market'], resolve),
+          meta: {
+            title: '市场行情'
+          }
+        },
+        {
           path: '/jobchance',
           name: 'jobchance',
           component: resolve => require(['@/view/JobChance'], resolve),
@@ -113,7 +122,7 @@ export default new Router({
             title: '相关服务'
           }
         },
-        /*添加新闻路由 
+        /*添加新闻路由
         第一个
         */
         {
@@ -210,19 +219,25 @@ export default new Router({
          meta: {
            title: '新闻动态'
          }
-       },/* 第十二个 */
-       {
-        path: '/news12',
-        name: 'new12',
-        component: resolve => require(['@/view/news12'], resolve),
-        meta: {
-          title: '新闻动态'
+       },
+        {
+          path: '/news12',
+          name: 'new12',
+          component: resolve => require(['@/view/news12'], resolve),
+          meta: {
+            title: '新闻动态'
+          }
         }
-      },
-
-         
       ]
-    }
+    },
+    {
+      path: '/Ceshi',
+      name: 'Ceshi',
+      component: resolve => require(['@/view/Ceshi'], resolve),
+      meta: {
+        title: 'Ceshi'
+      }
+    },
   ],
 //  scrollBehavior(to, from,savedPosition) {
   //  return { x: 0, y: 0 }

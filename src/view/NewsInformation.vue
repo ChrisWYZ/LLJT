@@ -24,14 +24,14 @@
                         <img src="../assets/img/circle.png">
                         <i class="line center-block"></i>
                     </div>
-                    
+
                 </li>
-                
+
             </ul>
             <div class="contaianer-fuild text-center more">
                 <i class="glyphicon glyphicon-th"></i>
             </div>
-            
+
         </div>
                 <!-- 联系我们 -->
     <div id="contactUs" class="container-fuild text-center">
@@ -40,7 +40,7 @@
         <h3>用双手开拓进取，用能力创造未来。</h3>
         <h3>言必信、行必果！</h3>
         <h3>人人讲诚信、事事做诚信！</h3>
-        <router-link to="/ContactUS"><button 
+        <router-link to="/ContactUS"><button
           class="btn btn-default btn-sm"
           onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
           onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
@@ -60,7 +60,7 @@ export default {
     name: 'NewsInformation',
     data(){
         return{
-            
+
             newsList:[
                 {
                     id: '001',
@@ -70,7 +70,7 @@ export default {
                     date: '11-27',
                     year: '2020',
                     order: 9,
-                  
+
                 },{
                     id: '009',
                     title: '海南与中国贸促会签约并举行自贸港推介座谈会',
@@ -87,7 +87,7 @@ export default {
                     date: '11-25',
                     year: '2020',
                     order: 7,
-                 
+
                 },{
                     id: '003',
                     title: '2020中国品牌博鳌峰会',
@@ -161,13 +161,13 @@ export default {
                     year: '2020',
                     order: 12
                 },
-                
-                
+
+
             ],
-            
-           
+
+
         }
-        
+
     },
     computed:{
         ordernewsList() {
@@ -178,7 +178,7 @@ export default {
     mounted(){
         var wow = new WOW();
         wow.init();
-        
+
     },
     methods:{
         diss(){},
@@ -229,25 +229,25 @@ export default {
                 this.$router.push({
                     path: '/news9'
                 })
-            
+
             }
             else if(id==10){
                 this.$router.push({
                     path: '/news10'
                 })
-            
+
             }
             else if(id==11){
                 this.$router.push({
                     path: '/news11'
                 })
-            
+
             }
             else if(id==12){
                 this.$router.push({
                     path: '/news12'
                 })
-            
+
             }
 
         }
@@ -379,7 +379,7 @@ export default {
   border: 1px solid #ccc;
 }
   #customer .customer-logo img {
-    margin-left:30px;  
+    margin-left:30px;
     width: 48px;
     height: 48px;
   }
@@ -403,19 +403,19 @@ export default {
 /* 口号+按钮 */
 #contactUs .contactUs-container {
   padding: 0px;
-} 
+}
 /* 按钮 */
  #contactUs .contactUs-container button {
   width: 300px;
   height: 50px;
   margin-top:20px;
-} 
+}
  #contactUs .contactUs-container .contactUs-contactWay span {
   display: inline-block;
   width: 48px;
   height: 48px;
   margin: 30px;
-} 
+}
 .customer-block {
 height: 300px;
 }
